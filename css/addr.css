@@ -1,0 +1,54 @@
+/* 禁止复制，a标签就不会选中出现蓝色背景 */
+html {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    font-family: "webfont" !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+a {
+    outline: none;
+}
+
+h2 {
+    font-size: 24px;
+    /* font-family: arial, helvetica; */
+    color: #000;
+    font-weight: bold;
+    /* width: 60px; */
+}
+
+.sectionAddr {
+    position: relative;
+    margin-top: 50px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.address {
+    position: relative;
+    right: 20%;
+    left: 20%;
+    top: 3%;
+    padding-top: 10px;
+    width: 60%;
+    height: auto;
+
+}
+
+h2 {
+    border-bottom: 0.5px solid #eee;
+    padding-bottom: 12px;
+}
+
+.detail{
+    padding-left: 20px;
+}
+
+.detail p {
+    color: #444;
+}

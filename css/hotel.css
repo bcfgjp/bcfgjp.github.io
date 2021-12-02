@@ -1,0 +1,168 @@
+/* 禁止复制，a标签就不会选中出现蓝色背景 */
+html {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    font-family: "webfont" !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+h1 {
+    font-size: 3em;
+    /* font-family: arial, helvetica; */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    top: 42%;
+    left: 0px;
+    text-align: center;
+    position: relative;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: normal;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    top: 39%;
+    left: 0px;
+    text-align: center;
+    position: relative;
+}
+
+.section {
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.slide {
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /* background-size:contain; */
+    padding: 0 0 0 0;
+}
+
+
+/* 第一屏 */
+#section-one #slide1 {
+    background-image: url(../images/img/hotel/hotel-in-1.JPG);
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#section-one #slide2 {
+    background-image: url(../images/img/hotel/hotel-in-2.JPG);
+    background-position-x: center;
+    background-position-y: bottom;
+}
+
+#section-one #slide3 {
+    background-image: url(../images/img/hotel/hotel-in-3.JPG);
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#section-one #slide4 {
+    background-image: url(../images/img/hotel/hotel-in-4.JPG);
+    background-position-x: center;
+    background-position-y: 47%;
+}
+
+#section-one #slide5 {
+    background-image: url(../images/img/hotel/hotel-in-5.JPG);
+    background-position-x: center;
+    background-position-y: 40%;
+}
+
+#section-one #slide6 {
+    background-image: url(../images/img/hotel/hotel-in-6.JPG);
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#section-one #slide7 {
+    background-image: url(../images/img/hotel/hotel-in-7.JPG);
+    background-position-x: center;
+    background-position-y: 38%;
+}
+
+/* 第二屏 */
+#section-two #slide1 {
+    background-image: url(../images/img/hotel/hotel-sys-1.JPG);
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#section-two #slide2 {
+    background-image: url(../images/img/hotel/hotel-sys-2.JPG);
+    background-position-x: center;
+    background-position-y: 21%;
+}
+
+#section-two #slide3 {
+    background-image: url(../images/img/hotel/hotel-sys-3.JPG);
+    /* background-color:rgb(160, 131, 93); */
+    background-size:cover;
+    background-position-x: center;
+    background-position-y: 10%;
+}
+
+/* 第三屏 */
+#section-three #slide1 {
+    background-image: url(../images/img/hotel/hotel-wal-1.jpeg);
+    background-position-x: center;
+    background-position-y: 20%;
+}
+
+#section-three #slide2 {
+    background-image: url(../images/img/hotel/hotel-wal-2.jpeg);
+    background-position-x: center;
+    background-position-y: 68%;
+}
+
+#section-three #slide3 {
+    background-image: url(../images/img/hotel/hotel-wal-3.jpeg);
+    background-position-x: center;
+    background-position-y: 66%;
+}
+
+#section-three #slide4 {
+    background-image: url(../images/img/hotel/hotel-wal-4.JPG);
+    background-position-x: center;
+    background-position-y: 42%;
+}
+
+#section-three #slide5 {
+    background-image: url(../images/img/hotel/hotel-wal-5.JPG);
+    background-position-x: center;
+    background-position-y: 70%;
+}
+
+/* 第四屏 */
+#section-four {
+    background-image: url(../images/img/hotel/hotel-out-1.JPG);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 90%;
+    padding: 0 0 0 0;
+}
+
+#section-four h1 {
+    top: 42%;
+    left: 200px;
+    text-align: center;
+    position: relative;
+}
+
+#section-four h2 {
+    top: 38%;
+    left: 200px;
+    text-align: center;
+    position: relative;
+}

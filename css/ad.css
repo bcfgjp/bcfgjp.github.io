@@ -1,0 +1,164 @@
+/* 禁止复制，a标签就不会选中出现蓝色背景 */
+html {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    font-family: "webfont" !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    outline: none;
+}
+
+h1 {
+    font-size: 3.2em;
+    /* font-family: arial, helvetica; */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    top: 42%;
+    left: 0px;
+    text-align: center;
+    position: relative;
+}
+
+.one {
+    word-wrap: break-word;
+    /*英文的时候需要加上这句，自动换行*/
+    width: 20px;
+    height: 100px;
+    margin: 0 auto;
+    line-height: 24px;
+    font-size: 20px;
+    position: relative;
+}
+
+
+.sectionAd {
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.slide {
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 0 0 0 0;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#ad-one .slide-ad1 {
+    background-position-x: center;
+    background-position-y: 10%;
+}
+
+#ad-one h1 {
+    top: 72%;
+    left: 0px;
+}
+
+#ad-two .slide {
+    background-color: rgb(5, 0, 0);
+    background-size: contain;
+}
+
+#ad-two h1 {
+    top: 72%;
+    left: 0px;
+}
+
+#ad-three .slide {
+    background-size: cover;
+    background-position-y: 15%;
+}
+
+#ad-three h1 {
+    top: 82%;
+    left: 0px;
+}
+
+#ad-four .slide {
+    background-color: rgb(203, 204, 207);
+    background-size: contain;
+}
+
+#ad-four h1 {
+    top: 45%;
+    left: 0px;
+}
+
+#ad-five .slide {
+    background-color: rgb(245, 247, 247);
+    background-size: contain;
+}
+
+#ad-five h1 {
+    top: 85%;
+    left: 0px;
+    color: #000;
+}
+
+#ad-six .slide {
+    /* background-color: rgb(203, 204, 207); */
+    background-color: rgb(255, 255, 255);
+    background-size: contain;
+}
+
+#ad-six h1 {
+    top: 85%;
+    left: 0px;
+    color: #000;
+}
+
+#ad-six {
+    background-attachment:scroll;
+}
+
+#ad-seven {
+    background-color: rgb(245, 247, 247);
+}
+
+#ad-eight {
+    background-image: url(../images/img/ad/contact/contact-logo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    padding: 0 0 0 0;
+}
+
+.QAContent{
+    top: 0px;
+}
+
+.QA {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+.QA-1 {
+    padding-top: 8%;
+}
+
+.QA .question {
+    color: #494949;
+    font-size: 24px;
+    font-weight: bold;
+    /* font-family: tesila1; */
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.QA .answer {
+    color: #717171;
+    font-size: 15px;
+    font-weight: normal;
+    /* font-family: tesila1; */
+    text-align: left;
+    line-height: 24px;
+}
