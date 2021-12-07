@@ -2,7 +2,6 @@
 html {
     -webkit-user-select: none;
     -moz-user-select: none;
-    font-family: "webfont" !important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -149,7 +148,7 @@ a {
     color: #333333;
     font-size: 15px;
     /* font-family: tesila3; */
-    font-weight: 300;
+    font-weight: normal;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -311,32 +310,58 @@ a {
 .resRoot {
     position: relative;
     display: flex;
-    top: 40px;
-    left: 5%;
+    top: 30px;
+    left: 3%;
     right: 5%;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     height: 95%;
     text-align: center;
 }
 
-.resRootList {
+.resRootTitle .res_number{
+    width: 100%;
+    height: 20px;
+    font-size: 18px;
+}
+
+.resList{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 13%;
 }
 
 .resRootList {
+    width: 50%;
     position: relative;
-    height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    height: 250px;
 }
 
-.resRootList a {
+.resRootList p{
+    width: 100%;
+    height: 14px;
+}
+
+.resRootList .list_title{
+    font-size: 20px;
+    font-weight:800px;
+    width: 100%;
+    height: 25px;
+    padding-top: 15px;
+}
+
+.resBottom{
+    position: relative;
+    height: 220px;
+}
+
+.resBottom a {
     color: rgb(10, 28, 85);
 }
 
@@ -344,13 +369,13 @@ a {
     position: relative;
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
     text-align: center;
     top: 20px;
     padding-left: 35%;
     padding-right: 30%;
     width: 35%;
     height: 100px;
-
 }
 
 .rootInfo {

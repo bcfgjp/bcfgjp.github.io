@@ -98,7 +98,7 @@ $(document).ready(function () {
             html = html + '</div>';
             html = html + '</div>';
             html = html + '<div class="propertyDetail">'
-            html = html + '<h1 class="listContent">' + list.contentText + '</h1>';
+            html = html + '<h1 lang="res_trade_item' + i + '" class="listContent">' + list.contentText + '</h1>';
             html = html + '</div></div>';
 
             id.append(html);
@@ -152,7 +152,7 @@ $(document).ready(function () {
             html = html + '</div>';
             html = html + '</div>';
             html = html + '<div class="propertyDetail">'
-            html = html + '<h1 class="listContent">' + list.contentText + '</h1>';
+            html = html + '<h1 lang="res_lease_item' + i + '" class="listContent">' + list.contentText + '</h1>';
             html = html + '</div></div>';
 
             id.append(html);
@@ -224,15 +224,17 @@ $(document).ready(function () {
             html = html + '<i class="iconfont ' + list.iconFont + '"></i>';
             html = html + '</div>';
             html = html + '<div class="blocktitle">';
-            html = html + '<h1 class="listTitle">' + list.titleText + '</h1>';
+            html = html + '<h1 lang="res_mag_t_item' + i + '" class="listTitle">' + list.titleText + '</h1>';
             html = html + '</div>';
             html = html + '</div>';
             html = html + '<div class="propertyDetail">'
-            html = html + '<h1 class="listContent">' + list.contentText + '</h1>';
+            html = html + '<h1 lang="res_mag_c_item' + i + '" class="listContent">' + list.contentText + '</h1>';
             html = html + '</div></div>';
 
             id.append(html);
         };
     }
+
+    allLangChange();
 
 });

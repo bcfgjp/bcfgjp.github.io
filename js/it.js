@@ -41,6 +41,8 @@ var data_it_web = [{
 
 $(document).ready(function () {
 
+    allLangChange();
+
     // 必须放在  $('#fullpage').fullpage 这之前，否则不能显示
     drawHtml($('#IT-one'), data_it_app);
     drawHtml($('#IT-two'), data_it_mini);

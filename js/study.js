@@ -27,6 +27,7 @@ function startup() {
 }
 
 $(document).ready(function () {
+
     var flag = true;
     var flag1 = true;
 
@@ -123,14 +124,17 @@ $(document).ready(function () {
         html = html + '<i class="iconfont ' + list.iconFont + '"></i>';
         html = html + '</div>';
         html = html + '<div class="blocktitle">';
-        html = html + '<h1 class="listTitle">' + list.titleText + '</h1>';
+        html = html + '<h1 lang="study_sort_' + i + '" class="listTitle">' + list.titleText + '</h1>';
         html = html + '</div>';
         html = html + '</div>';
         html = html + '<div class="studyDetail">'
-        html = html + '<h1 class="listContent">' + list.contentText + '</h1>';
+        html = html + '<h1 lang="study_sort_' + i + '_detail' + '" class="listContent">' + list.contentText + '</h1>';
         html = html + '</div></div>'
         $('.STUDY-two .study-grid').append(html);
 
     };
+
+    //需要放在最后
+    allLangChange();
 
 });

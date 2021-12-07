@@ -26,18 +26,28 @@
 }
 
 @font-face {
-    font-family: 'webfont';
+    font-family: 'webfont_jp';
     font-display: swap;
-    src: url('../Fonts/webfont/webfont.eot'); /* IE9 */
-    src: url('../Fonts/webfont/webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../Fonts/webfont/webfont.woff2') format('woff2'),
-    url('../Fonts/webfont/webfont.woff') format('woff'), /* chrome、firefox */
-    url('../Fonts/webfont/webfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-    url('../Fonts/webfont/webfont.svg#webfont') format('svg'); /* iOS 4.1- */
+    src: url('../Fonts/webfont_jp/webfont.eot'); /* IE9 */
+    src: url('../Fonts/webfont_jp/webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../Fonts/webfont_jp/webfont.woff2') format('woff2'),
+    url('../Fonts/webfont_jp/webfont.woff') format('woff'), /* chrome、firefox */
+    url('../Fonts/webfont_jp/webfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../Fonts/webfont_jp/webfont.svg#webfont') format('svg'); /* iOS 4.1- */
+}
+@font-face {
+    font-family: 'webfont_cn';
+    font-display: swap;
+    src: url('../Fonts/webfont_cn/webfont.eot'); /* IE9 */
+    src: url('../Fonts/webfont_cn/webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../Fonts/webfont_cn/webfont.woff2') format('woff2'),
+    url('../Fonts/webfont_cn/webfont.woff') format('woff'), /* chrome、firefox */
+    url('../Fonts/webfont_cn/webfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../Fonts/webfont_cn/webfont.svg#webfont') format('svg'); /* iOS 4.1- */
 }
 
 .web-font {
-    font-family: "webfont" !important;
+    font-family: "webfont_jp" !important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }

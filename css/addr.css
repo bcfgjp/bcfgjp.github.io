@@ -2,11 +2,9 @@
 html {
     -webkit-user-select: none;
     -moz-user-select: none;
-    font-family: "webfont" !important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
 
 a {
     outline: none;
@@ -22,7 +20,7 @@ h2 {
 
 .sectionAddr {
     position: relative;
-    margin-top: 50px;
+    padding-top: 50px;
     height: auto;
     width: 100%;
     display: flex;

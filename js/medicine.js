@@ -23,15 +23,39 @@ function startup() {
     // });
 }
 
+var data_res_business_1 = [{
+        "bgImg": "url(../images/img/medic/2.webp)",
+        "titleText": "BEACON",
+    }, {
+        "bgImg": "url(../images/img/medic/1.jpeg)",
+        "titleText": "",
+    }
+];
+
+var data_res_business_2 = [{
+    "bgImg": "url(../images/img/medic/3.jpeg)",
+        "titleText": "BEACON",
+    }
+];
+var data_res_business_3 = [{
+    "bgImg": "url(../images/img/medic/4.jpeg)",
+        "titleText": "BEACON",
+    }
+];
+
+
 $(document).ready(function () {
 
-    allLangChange();
-    
+    // 必须放在  $('#fullpage').fullpage 这之前，否则不能显示
+    drawHtml($('#medic-one'), data_res_business_1);
+    drawHtml($('#medic-two'), data_res_business_2);
+    drawHtml($('#medic-three'), data_res_business_3);
+
     var slideIndex = 1;
     sliding = false;
     $('#fullpage').fullpage({
         //options here
-        anchors: ['hotle1', 'hotel2', 'hotel3', 'hotel4'],
+        anchors: ['medicine1', 'medicine2', 'medicine3'],
         verticalCentered: false,
 
         //to avoid problems with css3 transforms and fixed elements in Chrome, as detailed here: https://github.com/alvarotrigo/fullPage.js/issues/208
@@ -42,13 +66,23 @@ $(document).ready(function () {
         slidesNavigation: true,
         // SlidesNavPosition: 'top',
         resize: true,
+        scrollOverflow: true,
 
         afterLoad(origin, destination, direction) {
             /* do nothing */
         },
-        onLeave(origin, destination, direction) {
-            /* do nothing */
-        }
+        onLeave: function (index, nextIndex, direction) {
+            var t = setTimeout(
+                function () {
+                    var color = '#fff';
+                    if (nextIndex.index == 4 || nextIndex.index == 5 || nextIndex.index == 6 || nextIndex.index == 7) {
+                        color = '#000'
+                    }
+                    $('.backhome a').css({
+                        'color': color
+                    });
+                }, 350);
+        },
     });
 
 
@@ -68,5 +102,22 @@ $(document).ready(function () {
         fullpage_api.moveSectionDown();
     })
     // $('.section:nth-child(-n+4)').append($img);
+
+
+    function drawHtml(id, data) {
+        var html = ''; // '<div class="section" id="section-one">';
+        for (var i in data) {
+            list = data[i];
+            var index = parseInt(i) + 1;
+            var html = '<div class="slide slide-ad' + index + '" ';
+            html = html + 'style="background-image:' + list.bgImg + ';"' + '>';
+            html = html + '<h1 class="adTitle">' + list.titleText + '</h1>';
+            html = html + '</div>';
+            id.append(html);
+        };
+        //html = html + '</div>';
+    }
+
+    allLangChange();
 
 });

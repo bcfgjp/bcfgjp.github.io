@@ -8,6 +8,8 @@
 
 $(document).ready(function () {
 
+    allLangChange();
+    
     var slideIndex = 1;
     sliding = false;
     $('#fullpage').fullpage({

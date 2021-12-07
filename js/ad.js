@@ -229,11 +229,13 @@ $(document).ready(function () {
             list = data[i];
             var index = parseInt(i) + 1;
             var html = '<div class="QA QA-' + index + '" >';
-            html = html + '<h1 class="question">' + list.QText + '</h1>';
-            html = html + '<h1 class="answer">' + list.AText + '</h1>';
+            html = html + '<h1 lang="ad_QText_' + i + '" class="question">' + list.QText + '</h1>';
+            html = html + '<h1 lang="ad_AText_' + i + '" class="answer">' + list.AText + '</h1>';
             html = html + '</div>';
             id.append(html);
         };
     }
+
+    allLangChange();
 
 });

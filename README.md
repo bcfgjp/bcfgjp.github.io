@@ -1,0 +1,1 @@
+# beaconjp.github.io

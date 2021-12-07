@@ -22,14 +22,19 @@ h1 {
     position: relative;
 }
 
-
-.section {
-    text-align: center;
-    background-size: cover;
-    background-attachment: fixed;
+.one {
+    word-wrap: break-word;
+    /*英文的时候需要加上这句，自动换行*/
+    width: 20px;
+    height: 100px;
+    margin: 0 auto;
+    line-height: 24px;
+    font-size: 20px;
+    position: relative;
 }
 
-.sectionIT {
+
+.sectionMedic{
     text-align: center;
     background-size: cover;
     background-attachment: fixed;
@@ -44,7 +49,32 @@ h1 {
     background-position-y: center;
 }
 
-#IT-one .slide-IT1 {
+#medic-one .slide-ad1 {
     background-position-x: center;
     background-position-y: 10%;
+}
+
+#medic-one h1 {
+    top: 72%;
+    left: 0px;
+}
+
+#medic-two .slide {
+    background-color: rgb(5, 0, 0);
+    background-size: contain;
+}
+
+#medic-two h1 {
+    top: 72%;
+    left: 0px;
+}
+
+#medic-three .slide {
+    background-size: cover;
+    background-position-y: 15%;
+}
+
+#medic-three h1 {
+    top: 82%;
+    left: 0px;
 }

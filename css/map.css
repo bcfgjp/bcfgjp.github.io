@@ -2,7 +2,6 @@
     html {
         -webkit-user-select: none;
         -moz-user-select: none;
-        font-family: "webfont" !important;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
     }  
