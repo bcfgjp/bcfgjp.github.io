@@ -21,21 +21,30 @@ function startup() {
         $('.fp-auto-height .permit .permit-one').css({
             'height': '18px'
         });
-        //
-        $('.dynamic_h').text(language['index_corpAd']);
+        //text
+        $('.dynamic-h').text(language['index_corpAd']);
+        $('.dynamic-span').text(language['index_corpAd']);
+        $('.dynamic-top').text(language['index_corpAd']);
+        //css
         $('.section-four').css({
             'background': 'url(./images/img/ad.jpg) no-repeat center center',
             'background-size': 'cover'
         });
-        $('.dynamic_a')[0].href = "./html/ad.html";
+        //link
+        $('.dynamic-a')[0].href = "./html/ad.html";
 
     } else {
-        $('.dynamic_h').text(language['index_medical']);
+        //text
+        $('.dynamic-h').text(language['index_medical']);
+        $('.dynamic-span').text(language['index_medical']);
+        $('.dynamic-top').text(language['index_medical']);
+        //css
         $('.section-four').css({
             'background': 'url(./images/img/beaut.jpg) no-repeat center center',
             'background-size': 'cover'
         });
-        $('.dynamic_a')[0].href = "./html/medicine.html";
+        //link
+        $('.dynamic-a')[0].href = "./html/medicine.html";
     }
 
 }
