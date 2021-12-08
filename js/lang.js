@@ -31,7 +31,7 @@ const langCN = {
     'permit_h1_record':     '© 2021 鲁ICP备2021018030号-1',
     'permit_h2_left':       '宅地建筑交易业者许可证',
     'permit_h2_right':      '東京都知事（１）第１０４１７２号',
-    'permit_h3_left':       '住宅住宿管理者&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;',
+    'permit_h3_left':       '民宿住宅管理者&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;',
     'permit_h3_right':      '国土交通大臣（０１）第F０２４４０号',
     'permit_h4_left':       '古物商执照&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;',
     'permit_h4_right':      '第３０１０３２１２１４２８号',
@@ -355,7 +355,7 @@ function allLangChange() {
 
     function langChange(defaultLang) {
         let language = defaultLang == 'cn' ? langCN : langJP
-        //let domList = document.querySelectorAll('[lang]')
+        //let domLi st = document.querySelectorAll('[lang]')
         let domList = $("[lang]")
         $(domList).each(function (i) {
             $(this).html(language[$(this).attr('lang')])
