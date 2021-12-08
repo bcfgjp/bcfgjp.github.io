@@ -355,7 +355,7 @@ function allLangChange() {
 
     function langChange(defaultLang) {
         let language = defaultLang == 'cn' ? langCN : langJP
-        //let 1domList = document.querySelectorAll('[lang]')
+        //let domList = document.querySelectorAll('[lang]')
         let domList = $("[lang]")
         $(domList).each(function (i) {
             $(this).html(language[$(this).attr('lang')])
