@@ -57,24 +57,24 @@ $(document).ready(function () {
     var data_res = [{
             "iconFont": "icon-fangyuanguanli",
             "titleText": "01",
-            "contentText": "高いコストパフォーマンスの投資物件",
+            "contentText": "",
         }, {
-            "iconFont": "icon-kehuguanli",
+            "iconFont": "icon-zijianfangjuzhuqingkuang",
             "titleText": "02",
-            "contentText": "オーダーメイド住宅のご提案",
+            "contentText": "",
         }, {
-            "iconFont": "icon-revenue",
+            "iconFont": "icon-dingzhi-home",
             "titleText": "03",
-            "contentText": "中古住宅のリフォーム・リノベーション",
+            "contentText": "",
         }, {
-            "iconFont": "icon-kehuguanli",
+            "iconFont": "icon-jianfangdaikuan",
             "titleText": "04",
-            "contentText": "外国籍のお客さま向けのローンサービス",
+            "contentText": "",
         },
         {
-            "iconFont": "icon-kehuguanli",
+            "iconFont": "icon-touzi",
             "titleText": "05",
-            "contentText": "移住者向けの不動産投資ライフプランのご提案",
+            "contentText": "",
         }
     ];
 
@@ -109,26 +109,26 @@ $(document).ready(function () {
     // 第二屏
     // 賃貸
     var data_rent = [{
-            "iconFont": "icon-meishu",
+            "iconFont": "icon-lease",
             "titleText": "01",
-            "contentText": "高級住宅の賃貸サービス",
+            "contentText": "",
         }, {
-            "iconFont": "icon-kehuguanli",
+            "iconFont": "icon-haiwaiyouxue-3-copy",
             "titleText": "02",
-            "contentText": "留学生向け即入居可能物件の紹介サービス",
+            "contentText": "",
         }, {
-            "iconFont": "icon-kehuguanli",
+            "iconFont": "icon-baozhengren",
             "titleText": "03",
-            "contentText": "外国籍のお客さま向け、賃貸保証システム",
+            "contentText": "",
         }, {
-            "iconFont": "icon-kehuguanli",
+            "iconFont": "icon-xueshengsushe-copy",
             "titleText": "04",
-            "contentText": "学生寮・シェアハウスの提供サービス",
+            "contentText": "",
         },
         {
-            "iconFont": "icon-kehuguanli",
+            "iconFont": "icon-a-1_yishoufangmaifangfuwu",
             "titleText": "05",
-            "contentText": "UR団地・公営住宅の申請代行サービス",
+            "contentText": "",
         }
     ];
 
@@ -163,44 +163,44 @@ $(document).ready(function () {
     //第三屏
     // 管理
     var data_management = [{
-            "iconFont": "icon-kehuguanli",
-            "titleText": "利益の最大化",
-            "contentText": "プロによる知識や経験を活かして、委託した物件の高い稼働率を保証、オーナーさまの利益を最大化します。",
+            "iconFont": "icon-fangwuzulin3",
+            "titleText": "",
+            "contentText": "",
         },
         {
             "iconFont": "icon-seal",
-            "titleText": "入居者の厳格審査",
-            "contentText": "貸主さまに安心して賃貸経営していただけるよう、厳格な審査手順を実施して、入居者の品格や支払い能力を確保します。",
+            "titleText": "",
+            "contentText": "",
         },
         {
             "iconFont": "icon-data-copy",
-            "titleText": "つぎはコスト削減を！",
-            "contentText": "お客様のご要望にお応えいたして、物件のメンテナンス費用を削減します。",
+            "titleText": "",
+            "contentText": "",
         },
         {
             "iconFont": "icon-data02",
-            "titleText": "安心して任せて",
-            "contentText": "行き届いたサービスを提供している一方、豊富な情報を生かして質の高い賃貸物件をお客様にお届け致し、安定な投資収益率を確保します。",
+            "titleText": "",
+            "contentText": "",
         },
         {
             "iconFont": "icon-Patrol",
-            "titleText": "安全性の保証",
-            "contentText": "重大な事故を未然に防ぐため、お客様の物件を定期的に巡回し、不備がないか点検し、建物や設備の異常などの早期発見につとめます。",
+            "titleText": "",
+            "contentText": "",
         },
         {
             "iconFont": "icon--hours",
-            "titleText": "いつでもそばにいる！",
-            "contentText": "緊急事態発生時において迅速かつ的確に対応を行うために、管理チームは24時間の緊急対応を支援し、いつでもお客様のそばにいることができます。",
+            "titleText": "",
+            "contentText": "",
         },
         {
-            "iconFont": "icon-fangyuanguanli",
-            "titleText": "メンテナンスの心配は不要です",
-            "contentText": "様々な物件を管理してきた経験と実績があるので、物件の日常メンテナンスの実施など、オーナー様が安心できるきめ細かなサービスを提供しています。",
+            "iconFont": "icon-danbaoquan",
+            "titleText": "",
+            "contentText": "",
         },
         {
             "iconFont": "icon-revenue",
-            "titleText": "収支管理のプロがお手伝い",
-            "contentText": "物件に関する各種の収支（水、電気、ガスなど）について、操作指示、納付通知、支払代行などのサービスをも提供することもできます。",
+            "titleText": "",
+            "contentText": "",
         }
     ];
 

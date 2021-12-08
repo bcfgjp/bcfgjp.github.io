@@ -6,8 +6,11 @@
 //     });
 // }
 
-
 function startup() {
+
+}
+
+function fresh() {
     var record = $('.right-record');
 
     var fullHref = window.location.href;
@@ -25,6 +28,7 @@ function startup() {
         $('.dynamic-h').text(language['index_corpAd']);
         $('.dynamic-span').text(language['index_corpAd']);
         $('.dynamic-top').text(language['index_corpAd']);
+        $('.dynamic-right').text(language['index_corpAd']);
         //css
         $('.section-four').css({
             'background': 'url(./images/img/ad.jpg) no-repeat center center',
@@ -38,6 +42,7 @@ function startup() {
         $('.dynamic-h').text(language['index_medical']);
         $('.dynamic-span').text(language['index_medical']);
         $('.dynamic-top').text(language['index_medical']);
+        $('.dynamic-right').text(language['index_medical']);
         //css
         $('.section-four').css({
             'background': 'url(./images/img/beaut.jpg) no-repeat center center',
@@ -46,12 +51,14 @@ function startup() {
         //link
         $('.dynamic-a')[0].href = "./html/medicine.html";
     }
-
 }
 
 $(document).ready(function () {
 
     allLangChange();
+    fresh();
+    let language = defaultLang == 'cn' ? langCN : langJP
+
 
     // var t= $('.link')[0].offsetLeft;
     // alert(t);
@@ -165,11 +172,8 @@ $(document).ready(function () {
         }).children().eq(0).addClass('appear').removeClass('disappear').siblings().addClass('disappear').removeClass('appear');
 
         //adjust
-        if (defaultLang == 'cn') {
-            $lang.eq(0).text('咨询').siblings().text('关于BEACON');
-        } else {
-            $lang.eq(0).text('お問い合わせ').siblings().text('BEACONについて');
-        }
+        $lang.eq(0).text(language['index_inquiry']).siblings().text(language['about']);
+        
         // 设置a标签的href
         $('.resmoreInfo')[0].href = "./html/res.html#rent";
     })
@@ -183,11 +187,8 @@ $(document).ready(function () {
         }).children().eq(1).addClass('appear').removeClass('disappear').siblings().addClass('disappear').removeClass('appear');
 
         //adjust
-        if (defaultLang == 'cn') {
-            $lang.eq(0).text('咨询').siblings().text('关于BEACON');
-        } else {
-            $lang.eq(0).text('お問い合わせ').siblings().text('BEACONについて');
-        }
+        $lang.eq(0).text(language['index_inquiry']).siblings().text(language['about']);
+
         // 设置a标签的href
         $('.resmoreInfo')[0].href = "./html/res.html#res";
     })
@@ -201,11 +202,8 @@ $(document).ready(function () {
         }).children().eq(2).addClass('appear').removeClass('disappear').siblings().addClass('disappear').removeClass('appear');
 
         //adjust
-        if (defaultLang == 'cn') {
-            $lang.eq(0).text('咨询').siblings().text('关于BEACON');
-        } else {
-            $lang.eq(0).text('お問い合わせ').siblings().text('BEACONについて');
-        }
+        $lang.eq(0).text(language['index_inquiry']).siblings().text(language['about']);
+
         // 设置a标签的href
         $('.resmoreInfo')[0].href = "./html/res.html#management";
     })

@@ -1,5 +1,5 @@
 const langCN = {
-    'company':              'BEACON股份有限公司',
+    'company':              'BEACON株式会社',
     'about':                '关于BEACON',
 
     //home
@@ -8,10 +8,10 @@ const langCN = {
     'index_manage':         '管理',
     'index_trade':          '买卖',
     'index_lease':          '出租',
-    'index_res_more':       '更多不动产的信息',
+    'index_res_more':       '更多关于不动产信息',
     'index_more_scroll':    '继续',
 
-    'index_it_sys':         'IT・信息系统',
+    'index_it_sys':         'IT',
     'index_it_app':         'App开发',
     'index_it_mini':        '小程序开发',
     'index_it_web':         'Web开发',
@@ -21,11 +21,11 @@ const langCN = {
     'index_more':           '更多',
 
     'index_corpAd':         '企业广告',
-    'index_medical':        '医美',
+    'index_medical':        '医疗和美容',
     'index_hotel':          '酒店',
     'index_inquiry':        '咨询',
 
-    'permit_h1_left':       'BEACON股份有限公司&nbsp;&nbsp;&nbsp;',
+    'permit_h1_left':       'BEACON株式会社&nbsp;&nbsp;&nbsp;',
     'permit_h1_addr':       '关于BEACON',
     'permit_h1_join':       '招聘信息',
     'permit_h1_record':     '© 2021 鲁ICP备2021018030号-1',
@@ -38,8 +38,8 @@ const langCN = {
 
 
     //us
-    'us_info_1':            'BEACON株式会社是日中合资公司。总公司位于东京都千代田区锻冶町1-3-1 VORT神田8楼，威海分公司位于山东省威海市经济开发区18-1香港路智慧大厦10F。',
-    'us_info_2':            '2018年成立的我公司主要经营房地产、留学事业、IT业、酒店事业、海外（日本）医疗事业5个事业，拥有丰富的经验，从各行各业整合各种资源，为客户提供周到的服务。',
+    'us_info_1':            'BEACON株式会社是日资公司。总公司位于东京都千代田区锻冶町1-3-1 VORT神田8楼，威海子公司位于山东省威海市经济开发区18-1香港路智慧大厦10F。',
+    'us_info_2':            '2018年成立的我公司主要经营不动产、留学事业、IT业、酒店事业、海外（日本）医疗事业5个事业，拥有丰富的经验，从各行各业整合各种资源，能够为客户提供周到的服务。',
 
 
     //study
@@ -53,14 +53,14 @@ const langCN = {
     'study_map7':           '中部地区7所',
     'study_map8':           '九州地区2所',
     'study_sort_0':         '大学·大学院',
-    'study_sort_0_detail':  '能够留学生入学的日本大学分为国立、公立（都道府县市立等）和私立。4年制大学由学部构成，大致分为人文学科、社会科学系、自然科学系，并且学部分为学科（英国文学科、法学科、经济学科等）。在大学院，根据这些系统·学部，被授予「硕士」「博士」「专业职务学位」的学位。',
-    'study_sort_1':         '专科学校（设置专业课程的专修学校）',
-    'study_sort_1_detail':  '专门学校以“培养在社会上马上有用的职业能力”为目的，进行与职业密切相关的教育，学习工作所需的知识和技术。另外，专门学校还设有美容师、护士、营养师、室内装饰设计师等课程。',
-    'study_sort_2':         '语言留学',
-    'study_sort_2_detail':  '在学习外语的过程中，积极地与人交流是很重要的，但是如果有外语环境的话，一定能早日取得成功。在日本学习日语的话，被日语环境包围着，语言能力自不必说，还能体验到真实的日本文化生活。而且，通过1~2年的日语学习，无论是回国后升学还是就职，竞争力都会变得更高，将来的可能性也会更大。',
-    'study_sort_3':         '艺术留学',
-    'study_sort_3_detail': '日本社会由于严重的少子高龄化，人手不足的问题越来越严重。为解决这一问题，日本政府将于2019年4月新设面向在日本就业的外国人的在留资格“特定技能”。那个在留资格申请不复杂。此外，还可以通过“特定技能”取得日本的永住权。',
-
+    'study_sort_0_detail':  '日本的大学分为国立大学、公立大学和私立大学。日本的大学是由“学部”所构成的，例如文学部、法学部、商学部、理学部、农学部等。而学部又是由“学科”所构成的，例如英文学科、摄影学科、经济学科等。日本的大学院相当于中国的研究生院，设有修士课程（=国内研究生）和博士课程。',
+    'study_sort_1':         '专门学校',
+    'study_sort_1_detail':  '日本的专门学校致力于培养学生的职业技能，学习工作所需的知识和技术。学生可考取的专业资格类别有：室内设计师、美容师、口译・笔译、保育士、动画设计师、网页设计师、营养师、宝石设计师等。',
+    'study_sort_2':         '语学留学',
+    'study_sort_2_detail':  '语言学习中最重要的就是会话交流能力，而适合的语言环境又是快速提升的不二法门。在日本学日语，就可以拥有沉浸式的语言环境，体验不同国家文化的碰撞。1~2年的日语学习，归国后不论是考学还是就职，都会拥有更强的竞争力，扩展更多的可能性。',
+    'study_sort_3':         '艺术生留学',
+    'study_sort_3_detail': '在日本东京体验开放深邃的艺术氛围，并且还可以与世界一流的艺术家和表演者得到同样的指导，磨练自己的技能。日本著名的艺术院校有武藏野美术大学、多摩美术大学、京都精华大学等。',
+   
 
     //hotel
     'hotel_name':           '吾妻桥',
@@ -68,31 +68,31 @@ const langCN = {
 
     //ad
     'ad_QText_0':           'Q: 可以退货吗？',
-    'ad_AText_0':           'A: 因为是订单制造，所以请不要根据客人的情况退货、更换。本公司对于本服务产品的品质管理，如有不良情况，将在商品到货后一周内由本公司承担运费，并与良品进行交换。脏污、针孔等可能会在一定的允许范围内得到您的谅解。如果因为交货期等原因没有进行再印刷的话，将退还全部的商品费用。即使发生了损失也不能支付，请谅解。',
+    'ad_AText_0':           'A: 由于是定制产品，所以不支持退货或换货。如果是由于商品质量原因，请与一周之内提交换货申请，并寄回商品，本公司将承担换货期间的商品运费。商品可能存在脏污、针孔等微小瑕疵，请您谅解。如果因为交货期等原因没有进行再次印刷，本公司将退还全部商品费用。若有商品遗失、损坏，本公司概不承担相应支出，请您谅解。',
     'ad_QText_1':           'Q：交货后发现了文字错误。可以重做吗？',
-    'ad_AText_1':           'A：交货后发现了错字、漏字的情况，如使用规约、设计构成服务页④所示，非常抱歉本店不承担责任。（在请客人进行最终确认后，正在进行数据的制作、印刷、交货，请谅解。）',
-    'ad_QText_2':           'Q：可以拜托你设计吗',
-    'ad_AText_2':           'A：本公司是以WEB制作事业部和看板制作事业部为主体的公司，所以不仅可以输出喷墨，还可以进行包括指导、设计在内的整体支持。从长年培养的看板业务、设计制作经验中，我们接受有确实成果的广告物的制作。有“想拘泥于外观”、“想制作有效果的广告”等想法的人，请务必与本公司轻松商量。',
+    'ad_AText_1':           'A：非常抱歉，如在交货后发现了错字、漏字的情况，根据使用约定、设计构成服务页④所示，本公司概不承担相应责任。（因为是客人进行最终确认后，本公司才进行数据的制作、印刷和交货。）',
+    'ad_QText_2':           'Q：可以拜托贵公司进行设计吗',
+    'ad_AText_2':           'A：本公司是以WEB制作事业部和看板制作事业部为主体的公司，所以不仅可以制作、指导，还包含设计在内的整体作业。在长年的看板业务和设计制作当中，我们在广告制作方面确实成果斐然。如果想要“惊艳到移不开眼的广告”，或是想要“宣传效果满级的广告”，请务必联系本公司。',
 
 
     //join
     'join_title':           '招聘职位！',
     'join_ios_title':       'iOS开发工程师',
     'join_ios_content_1':   'iOS应用程序的开发和维护',
-    'join_ios_content_2':   '如果有Swift的经验欢迎',
-    'join_ios_content_3':   '有开发经验，能够独自完成iOS开发任务',
+    'join_ios_content_2':   '有Swift的经验优先',
+    'join_ios_content_3':   '有开发经验，能够独自完成iOS开发任务的优先',
     'join_and_title':       'Android开发工程师',
     'join_and_content_1':   '熟悉Android框架、UI布局',
     'join_and_content_2':   '擅长Java，掌握Android的组件',
     'join_php_title':       'PHP开发工程师',
     'join_php_content_1':   '掌握MySQL、PHP、NGINX',
-    'join_php_content_2':   '删除thinkphp、laravel等框架',
-    'join_php_content_3':   '如果有小程序的经验的话欢迎',
-    'join_php_content_4':   '理想技能（加薪）：日语能力考试2级（N2）、日语能力考试1级（N1）',
+    'join_php_content_2':   '熟悉thinkphp、laravel等框架',
+    'join_php_content_3':   '有小程序开发经验的优先',
+    'join_php_content_4':   '日语能力考试2级（N2）及以上加薪',
     'join_web_title':       '前端开发工程师',
     'join_web_content_1':   '擅长HTML5、CSS、JS',
-    'join_web_content_2':   '如果有小程序的经验的话欢迎',
-    'join_web_content_3':   '理想技能（加薪）：日语能力考试2级（N2）、日语能力考试1级（N1）',
+    'join_web_content_2':   '有web开发、小程序开发经验的优先',
+    'join_web_content_3':   '日语能力考试2级（N2）及以上加薪',
 
 
     //addr 
@@ -102,7 +102,7 @@ const langCN = {
     'addr_china_email':     '邮箱：hr@bcfg.co.jp',
     'addr_china_phone':     '电话：0631-5991686',
 
-    'addr_japan_city':      '東京',
+    'addr_japan_city':      '东京',
     'addr_japan_corp':      'BEACON株式会社 总公司',
     'addr_japan_addr':      '地址：東京都千代田区鍛冶町1-3-1 VORT神田8階',
     'addr_japan_email':     '邮箱：beacon0921@gmail.com',
@@ -118,7 +118,7 @@ const langCN = {
 
 
     //res
-    'res_subject':          '国内外的投资家为了取得不动产、收益,选择管理经验、业绩好的大规模资产运用公司,提供单元服务。',
+    'res_subject':          '本公司会为在海内外投资日本不动产的客户提供收益管理、不动产托管等一条龙服务，我们拥有丰富的管理经验，获得过业内诸多好评。',
     'res_beacon':           'BEACON株式会社',
 
     'res_rootlist':         '总公司',
@@ -137,32 +137,39 @@ const langCN = {
 
     'res_trade_item0':      '高性价比投资',
     'res_trade_item1':      '定制住房',
-    'res_trade_item2':      '旧房改造',
+    'res_trade_item2':      '中古房产装修改造',
     'res_trade_item3':      '外国客户贷款服务',
-    'res_trade_item4':      '移民房地产投资生活计划',
+    'res_trade_item4':      '移民不动产投资生活计划',
 
     'res_lease_item0':      '豪华住房租赁服务',
     'res_lease_item1':      '面向留学生即可入住的房屋介绍服务',
     'res_lease_item2':      '外国客户租赁担保制度',
-    'res_lease_item3':      '提供学生宿舍服务',
+    'res_lease_item3':      '学生宿舍服务',
     'res_lease_item4':      '城市住房和公共住房申请代理服务',
 
-    'res_mag_t_item0':      '利益的最大化',
-    'res_mag_c_item0':      '利用专业人员的知识和经验，保证委托物品的高运转率，最大化业主的利益。',
-    'res_mag_t_item1':      '入住者的严格审查',
-    'res_mag_c_item1':      '为了让房东放心租赁经营，实施严格的审查程序，确保入住者的品格和支付能力。',
+    'res_mag_t_item0':      '利益最大化',
+    'res_mag_c_item0':      '运用专业人员的知识和经验，保证托管房屋的高租金，使投资者的利益达到最大化。',
+    'res_mag_t_item1':      '严格审查',
+    'res_mag_c_item1':      '为了让投资者放心租赁，本公司会实施严格的审查程序，确保入住者的人品以及是否具有足够的支付能力。',
     'res_mag_t_item2':      '降低成本',
-    'res_mag_c_item2':      '为了满足客人的要求，我们会削减物品的维护费用。',
-    'res_mag_t_item3':      '信任',
-    'res_mag_c_item3':      '一方面提供周到的服务，另一方面利用丰富的信息向客户提供高品质的租赁房，确保稳定的投资收益率。',
+    'res_mag_c_item2':      '为了满足租赁客户的要求，本公司会减少房屋维护费用的收取。',
+    'res_mag_t_item3':      '请放心交给我们',
+    'res_mag_c_item3':      '本公司会利用丰富的信息资源筛选出高品质的房屋推荐给投资者，确保投资者拥有稳定的投资收益率。',
     'res_mag_t_item4':      '安全保证',
-    'res_mag_c_item4':      '为了防止重大事故的发生，我们会定期巡视客人的房屋，检查是否有缺陷，努力尽早发现建筑物和设备的异常等。',
-    'res_mag_t_item5':      '随时都可以',
-    'res_mag_c_item5':      '为了在紧急情况发生时迅速准确地应对，管理团队将支援24小时的紧急应对，随时可以在客人的身边。',
-    'res_mag_t_item6':      '不需要担心维护',
-    'res_mag_c_item6':      '因为有管理过各种各样的物件的经验和实际成果，所以提供了诸如实施房屋日常维护等让业主放心的细致服务。',
-    'res_mag_c_item7':      '专业的预算管理帮助您',
-    'res_mag_c_item7':      '关于物件的各种收支（水、电、煤气等），也可以提供操作指示、缴纳通知、支付代理等服务。',
+    'res_mag_c_item4':      '为防止重大事故的发生，防患于未然，本公司会定期巡视投资者的房屋，检查是否有异常，尽早发现尽早维护修理。',
+    'res_mag_t_item5':      '随叫随到',
+    'res_mag_c_item5':      '为了在紧急情况发生时能够迅速准确地应对，本公司的管理团队将全天候24小时严阵以待。',
+    'res_mag_t_item6':      '房屋维护',
+    'res_mag_c_item6':      '本公司拥有丰富的各类房产管理经验，可以为业主提供房屋日常维护等细致耐心的服务，让投资者安心收益',
+    'res_mag_t_item7':      '专业的预算管理',
+    'res_mag_c_item7':      '本公司都会为投资者提供专业的预算管理服务，比如与房屋有关的的各种收支项目（比如水、电、煤气等）。除此之外，本公司也提供操作指示、缴纳通知、代理支付等服务。',
+
+
+    //medicine
+    'medicine_consulter':   '赴日医疗咨询与全流程协助顾问',
+    'medicine_trade':       '医疗用设备进出口',
+    'medicine_agency':      '代办中国NMPA注册医药品和设备',
+    'medicine_business':    '医疗旅游与养老护理业商务考察',
 
 }
 
@@ -190,7 +197,7 @@ const langJP = {
     'index_more':           'もっとみる',
 
     'index_corpAd':         '企業広告',
-    'index_medical':        '医美',
+    'index_medical':        '医療と美容',
     'index_hotel':          'ホテル',
     'index_inquiry':        'お問い合わせ',
 
@@ -228,7 +235,7 @@ const langJP = {
     'study_sort_2':         '語学留学',
     'study_sort_2_detail':  '外国語を学ぶ中に、積極的にコミュニケーションが取れる自分になるのは大切ですが、外国語環境があれば成功に一足早くたどり着くでしょう。日本で日本語を勉強すれば、日本語環境に囲まれて、語学力はもちろん、リアルな日本文化生活をも体験することができます。そして、1~2年にわたる日本語学習によって、帰国後進学であれ就職であれ、競争力をより多くたかくなり、将来の可能性をもより広くなります。',
     'study_sort_3':         '芸術留学',
-    'study_sort_3_detail':  '日本社会は深刻な少子高齢化によって、人手不足の問題がますます厳重になっています。それに取り組むため、2019年4月、日本政府は日本で就労する外国人向けの在留資格「特定技能」を新設します。その在留資格申請が複雑しないです。また、「特定技能」で日本の永住権を取得することもできます。',
+    'study_sort_3_detail':  '日本に身を置いて芸術的な雰囲気を体験する同時に、世界的なアーティストやパフォーマーと同じ指導を受けたり、自身のスキルを上達させることができます。日本には、武蔵野美術大学、多摩美術大学、京都精華大学など有名な大学があります。',
 
 
     //hotel
@@ -274,19 +281,19 @@ const langJP = {
     'addr_japan_city':      '東京',
     'addr_japan_corp':      'BEACON株式会社 本社',
     'addr_japan_addr':      '地址：東京都千代田区鍛冶町1-3-1 VORT神田8階',
-    'addr_japan_email':     '邮箱：beacon0921@gmail.com',
+    'addr_japan_email':     'メールアドレス：beacon0921@gmail.com',
     'addr_japan_phone':     'TEL：03-6258-1688',
-    'addr_japan_Fax':       '传真：03-6258-1686',
+    'addr_japan_Fax':       'TAX：03-6258-1686',
 
     'addr_japan_sub_city': '埼玉',
     'addr_japan_sub_corp':  'BEACON株式会社 広告事業所',
     'addr_japan_sub_addr':  '地址：埼玉県草加市神明2-4-14',
-    'addr_japan_sub_email': '邮箱：beaconsign@bcfg.co.jp',
+    'addr_japan_sub_email': 'メールアドレス：beaconsign@bcfg.co.jp',
     'addr_japan_sub_phone': 'TEL：080-9426-1688',
 
 
     //res
-    'res_subject':          '国内外の投資家は不動産を保有し、収益を取得するために、管理経験ある、業績良い大規模な資産運用会社を選択してワンストップサービスを提供しています。',
+    'res_subject':          '好評を博して、豊富な管理経験がある会社として、日本で不動産に投資する国内外の投資家に、収益管理、物件賃貸を含めるワンストップサービスを提供しています。',
     'res_beacon':           'BEACON株式会社',
 
     'res_rootlist':         '本社',
@@ -329,8 +336,15 @@ const langJP = {
     'res_mag_c_item5':      '緊急事態発生時において迅速かつ的確に対応を行うために、管理チームは24時間の緊急対応を支援し、いつでもお客様のそばにいることができます。',
     'res_mag_t_item6':      'メンテナンスの心配は不要です',
     'res_mag_c_item6':      '様々な物件を管理してきた経験と実績があるので、物件の日常メンテナンスの実施など、オーナー様が安心できるきめ細かなサービスを提供しています。',
-    'res_mag_c_item7':      '収支管理のプロがお手伝い',
+    'res_mag_t_item7':      '収支管理のプロがお手伝い',
     'res_mag_c_item7':      '物件に関する各種の収支（水、電気、ガスなど）について、操作指示、納付通知、支払代行などのサービスをも提供することもできます。',
+
+
+    //medicine
+    'medicine_consulter':   '日本で医療を受けるために来日する渡航受診者に提供する質の高い支援サービス',
+    'medicine_trade':       '医療用機械器具の輸出入業務',
+    'medicine_agency':      '中国NMPAへの医療薬品、機器の登録代行',
+    'medicine_business':    '医療ツーリズム、介護業界へのビジネス調査',
 
 
 }
@@ -341,17 +355,10 @@ function allLangChange() {
 
     function langChange(defaultLang) {
         let language = defaultLang == 'cn' ? langCN : langJP
-        let domList = document.querySelectorAll('[lang]')
+        //let domList = document.querySelectorAll('[lang]')
+        let domList = $("[lang]")
         $(domList).each(function (i) {
-            if ($(this).val() != null && $(this).val() != '') {
-                $(this).val(language[$(this).attr('lang')])
-            }
-            if ($(this).html() != null && $(this).html() != '') {
-                $(this).html(language[$(this).attr('lang')])
-            }
-            if ($(this).attr('placeholder') != null && $(this).attr('placeholder') != '') {
-                $(this).attr('placeholder', language[$(this).attr('lang')])
-            }
+            $(this).html(language[$(this).attr('lang')])
         })
     }
 
@@ -363,8 +370,6 @@ function allLangChange() {
         defaultLang = 'cn'
         langChange(defaultLang)
         sessionStorage.setItem('defaultLang', defaultLang)
-        document.title = '灯塔(山东)信息技术有限责任公司'
-        // document.body.style.fontFamily = "webfont_cn";
         $('body').css({
             'font-family': "webfont_cn"
         });
@@ -373,7 +378,6 @@ function allLangChange() {
         defaultLang = 'jp'
         langChange(defaultLang)
         sessionStorage.setItem('defaultLang', defaultLang)
-        document.title = 'BEACON株式会社';
         // document.body.style.fontFamily = "webfont_jp";
         $('body').css({
             'font-family': "webfont_jp"
