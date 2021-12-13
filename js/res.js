@@ -25,6 +25,11 @@ function startup() {
 
 $(document).ready(function () {
 
+    let language = defaultLang == 'cn' ? langCN : langJP;
+     // 设置a标签的href
+     $('.tel_tokyo')[0].href = language['addr_japan_call'];
+     $('.tel_qiyu')[0].href = language['addr_japan_sub_call'];
+
     $('#fullpage').fullpage({
         //options here
         anchors: ['res', 'rent', 'management', 'root'],

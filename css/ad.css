@@ -121,6 +121,7 @@ h1 {
 }
 
 #ad-eight {
+    background-color: rgb(255, 255, 255);
     background-image: url(../images/img/ad/contact/contact-logo.jpg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -160,4 +161,20 @@ h1 {
     /* font-family: tesila1; */
     text-align: left;
     line-height: 24px;
+}
+
+.sectionAd .tel_tokyo{
+    position: absolute;
+    top: 68%;
+    height: 50px;
+    width: 450px;
+    left: 40%;
+}
+
+.sectionAd .email_qiyu{
+    position: absolute;
+    top: 82%;
+    height: 60px;
+    width: 550px;
+    left: 30%;
 }

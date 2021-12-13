@@ -32,10 +32,13 @@ h2 {
     right: 20%;
     left: 20%;
     top: 3%;
-    padding-top: 10px;
+    padding-top: 40px;
     width: 60%;
     height: auto;
+}
 
+.address-1 {
+    padding-top: 5px;
 }
 
 h2 {
@@ -49,4 +52,23 @@ h2 {
 
 .detail p {
     color: #444;
+}
+
+/* map */
+#container_china {
+    left: 3%;
+    width: 94%;
+    height: 340px;
+}
+
+#container_tokyo{
+    left: 3%;
+    width: 94%;
+    height: 340px;
+}
+
+#container_qiyu{
+    left: 3%;
+    width: 94%;
+    height: 340px;
 }

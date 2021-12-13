@@ -45,7 +45,7 @@ function fresh() {
         $('.dynamic-right').text(language['index_medical']);
         //css
         $('.section-four').css({
-            'background': 'url(./images/img/beaut.jpg) no-repeat center center',
+            'background': 'url(./images/img/medic/10.jpg) no-repeat center center',
             'background-size': 'cover'
         });
         //link

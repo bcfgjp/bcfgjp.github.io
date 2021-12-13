@@ -147,6 +147,11 @@ var data_res_print = [{
 
 $(document).ready(function () {
 
+    let language = defaultLang == 'cn' ? langCN : langJP;
+    // 设置a标签的href
+    $('.tel_tokyo')[0].href = language['addr_japan_call'];
+    $('.email_qiyu')[0].href = language['addr_japan_sub_mailto'];
+
     // 必须放在  $('#fullpage').fullpage 这之前，否则不能显示
     drawHtml($('#ad-one'), data_res_business);
     drawHtml($('#ad-two'), data_res_luminous);

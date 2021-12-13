@@ -59,7 +59,7 @@ const langCN = {
     'study_sort_2':         '语学留学',
     'study_sort_2_detail':  '语言学习中最重要的就是会话交流能力，而适合的语言环境又是快速提升的不二法门。在日本学日语，就可以拥有沉浸式的语言环境，体验不同国家文化的碰撞。1~2年的日语学习，归国后不论是考学还是就职，都会拥有更强的竞争力，扩展更多的可能性。',
     'study_sort_3':         '艺术生留学',
-    'study_sort_3_detail': '在日本东京体验开放深邃的艺术氛围，并且还可以与世界一流的艺术家和表演者得到同样的指导，磨练自己的技能。日本著名的艺术院校有武藏野美术大学、多摩美术大学、京都精华大学等。',
+    'study_sort_3_detail':  '在日本东京体验开放深邃的艺术氛围，并且还可以与世界一流的艺术家和表演者得到同样的指导，磨练自己的技能。日本著名的艺术院校有武藏野美术大学、多摩美术大学、京都精华大学等。',
    
 
     //hotel
@@ -100,21 +100,28 @@ const langCN = {
     'addr_china_corp':      '灯塔(山东)信息技术有限责任公司',
     'addr_china_addr':      '地址：山东省威海市经济开发区18-1香港路智慧大厦10F',
     'addr_china_email':     '邮箱：hr@bcfg.co.jp',
-    'addr_china_phone':     '电话：0631-5991686',
+    'addr_china_phone':     'TEL：0631-5991686',
+    'addr_china_call':      'tel:0631-59991686',
+    'addr_china_mailto':    'mailto:hr@bcfg.co.jp?subject=&body=',
+    'addr_china_navigate':  '[导航到高德地图]',
 
     'addr_japan_city':      '东京',
     'addr_japan_corp':      'BEACON株式会社 总公司',
     'addr_japan_addr':      '地址：東京都千代田区鍛冶町1-3-1 VORT神田8階',
     'addr_japan_email':     '邮箱：beacon0921@gmail.com',
     'addr_japan_phone':     'TEL：03-6258-1688',
+    'addr_japan_call':      'tel:03-6258-1688',
     'addr_japan_Fax':       '传真：03-6258-1686',
+    'addr_japan_mailto':    'mailto:beacon0921@gmail.com?subject=&body=',
 
     'addr_japan_sub_city':  '埼玉',
     'addr_japan_sub_corp':  'BEACON株式会社 广告公司',
     'addr_japan_sub_addr':  '地址：埼玉县草加市神明2-4-14',
     'addr_japan_sub_email': '邮箱：beaconsign@bcfg.co.jp',
     'addr_japan_sub_phone': 'TEL：080-9426-1688',
-
+    'addr_japan_sub_call':  'tel:080-9426-1688',
+    'addr_japan_sub_mailto':'mailto:beaconsign@bcfg.co.jp?subject=&body=',
+    'addr_google_navigate':  '[导航到Google地图]',
 
 
     //res
@@ -274,22 +281,30 @@ const langJP = {
     //addr 
     'addr_china_city':      '威海',
     'addr_china_corp':      '灯台(山東)情報技術有限責任会社',
-    'addr_china_addr':      '住所：山東省威海市経済開発区18-1香港路知恵ビル10 F',
+    'addr_china_addr':      '地址：山東省威海市経済開発区18-1香港路知恵ビル10 F',
     'addr_china_email':     'メールアドレス:hr@bcfg.co.jp',
-    'addr_china_phone':     '電話番号：0631-59991686',
+    'addr_china_phone':     'Tel：0631-59991686',
+    'addr_china_call':      'tel:0631-59991686',
+    'addr_china_mailto':    'mailto:hr@bcfg.co.jp?subject=&body=',
+    'addr_china_navigate':  '[高徳地図へ]',
 
     'addr_japan_city':      '東京',
     'addr_japan_corp':      'BEACON株式会社 本社',
     'addr_japan_addr':      '地址：東京都千代田区鍛冶町1-3-1 VORT神田8階',
     'addr_japan_email':     'メールアドレス：beacon0921@gmail.com',
     'addr_japan_phone':     'TEL：03-6258-1688',
+    'addr_japan_call':      'tel:03-6258-1688',
     'addr_japan_Fax':       'TAX：03-6258-1686',
+    'addr_japan_mailto':    'mailto:beacon0921@gmail.com?subject=&body=',
 
-    'addr_japan_sub_city': '埼玉',
+    'addr_japan_sub_city':  '埼玉',
     'addr_japan_sub_corp':  'BEACON株式会社 広告事業所',
     'addr_japan_sub_addr':  '地址：埼玉県草加市神明2-4-14',
     'addr_japan_sub_email': 'メールアドレス：beaconsign@bcfg.co.jp',
     'addr_japan_sub_phone': 'TEL：080-9426-1688',
+    'addr_japan_sub_call':  'tel:080-9426-1688',
+    'addr_japan_sub_mailto':'mailto:beaconsign@bcfg.co.jp?subject=&body=',
+    'addr_google_navigate': '[Google地図へ]',
 
 
     //res
@@ -355,7 +370,7 @@ function allLangChange() {
 
     function langChange(defaultLang) {
         let language = defaultLang == 'cn' ? langCN : langJP
-        //let domLi st = document.querySelectorAll('[lang]')
+        //let domList = document.querySelectorAll('[lang]')
         let domList = $("[lang]")
         $(domList).each(function (i) {
             $(this).html(language[$(this).attr('lang')])

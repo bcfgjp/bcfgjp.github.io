@@ -1,0 +1,155 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Webfont Demo</title>
+    <style>
+/*
+KISSY CSS Reset
+理念：1. reset 的目的不是清除浏览器的默认样式，这仅是部分工作。清除和重置是紧密不可分的。
+2. reset 的目的不是让默认样式在所有浏览器下一致，而是减少默认样式有可能带来的问题。
+3. reset 期望提供一套普适通用的基础样式。但没有银弹，推荐根据具体需求，裁剪和修改后再使用。
+特色：1. 适应中文；2. 基于最新主流浏览器。
+维护：玉伯<lifesinger@gmail.com>, 正淳<ragecarrier@gmail.com>
+ */
+
+/** 清除内外边距 **/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+form, fieldset, legend, button, input, textarea, /* form elements 表单元素 */
+th, td /* table elements 表格元素 */ {
+  margin: 0;
+  padding: 0;
+}
+
+/** 设置默认字体 **/
+body,
+button, input, select, textarea /* for ie */ {
+  font: 12px/1.5 tahoma, arial, \5b8b\4f53, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+address, cite, dfn, em, var { font-style: normal; } /* 将斜体扶正 */
+code, kbd, pre, samp { font-family: courier new, courier, monospace; } /* 统一等宽字体 */
+small { font-size: 12px; } /* 小于 12px 的中文很难阅读，让 small 正常化 */
+
+/** 重置列表元素 **/
+ul, ol { list-style: none; }
+
+/** 重置文本格式元素 **/
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+
+/** 重置表单元素 **/
+legend { color: #000; } /* for ie6 */
+fieldset, img { border: 0; } /* img 搭车：让链接里的 img 无边框 */
+button, input, select, textarea { font-size: 100%; } /* 使得表单元素在 ie 下能继承字体大小 */
+/* 注：optgroup 无法扶正 */
+
+/** 重置表格元素 **/
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* 清除浮动 */
+.ks-clear:after, .clear:after {
+  content: '\20';
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.ks-clear, .clear {
+  *zoom: 1;
+}
+
+.main {padding: 30px 100px;}
+.main h1{font-size:36px; color:#333; text-align:left;margin-bottom:30px; border-bottom: 1px solid #eee;}
+
+.helps{margin-top:40px;}
+.helps pre{
+  padding:20px;
+  margin:10px 0;
+  border:solid 1px #e7e1cd;
+  background-color: #fffdef;
+  overflow: auto;
+}
+
+.icon_lists li{
+  float:left;
+  width: 100px;
+  height:150px;
+  text-align: center;
+}
+
+.icon_lists .icon{
+  font-size: 42px;
+  line-height: 100px;
+  margin: 10px 0;
+  color:#333;
+  -webkit-transition: font-size 0.25s ease-out 0s;
+  -moz-transition: font-size 0.25s ease-out 0s;
+  transition: font-size 0.25s ease-out 0s;
+}
+
+.icon_lists .icon:hover{
+  font-size: 100px;
+}
+
+@font-face {
+  font-family: "webfont";
+  font-display: swap;
+  src: url('webfont.eot'); /* IE9 */
+  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('webfont.woff2') format('woff2'),
+  url('webfont.woff') format('woff'), /* chrome、firefox */
+  url('webfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('webfont.svg#webfont') format('svg'); /* iOS 4.1- */
+}
+
+.web-font {
+  font-family: "webfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>webfont 字体预览</h1>
+        <p class="web-font">BEACON株式会社不動産IT・情報システム留学企業広告ホルナビ賃貸売買管理お問い合わせにつてのをもっと見るクローしくださアプリ開発ミニWeb進 就職©201鲁P备83号-採用住宅宿泊者登録番国土交通大臣()第F4有効期間令和年月日～9古物商許可証Q:返品は能ですか？雰受注製造為、客様ご都よ換遠慮下。当本サ質良あ場到着後１週以内限り弊が送料負担上たま汚れピンなど一定容範囲了承ざ納等由再印刷行代金全額き損害生支払出来んこ文字誤け作直脱利規約デザイ構成ペジ④う申訳店責任ね最終確認えタ願事部や看板主体ェット力ィレョ含めポ長培務制経験ら果「目」考方是非気軽相談威海灯塔山东信息技术责公司地址東省市済区香港路智慧設立中弁京千田鍛冶町VR神階外（）医療5運営豊富持各界多ソ統届提供協語教育機関西6校北道九州7投資家保収益取得績模選択ワ知免丁３－ＶＯＲＴ８LX時休水曜［個人扱］項JanscKu/kキャ指募集！Sエメwfば歓迎実向ネブ独自d【】フUウ熟v意般的コラ把握HMGグ望昇給：試２級ド吾妻橋·院入府県私分科系然英法そ修士博専門位授与課程置ぐ役養密接結び仕必要識術美師護栄ぶ積極ュケ切環境功足早ょ勉強ちろ化活~習帰競争将性芸深刻少子高齢手題厳重組む政労在格特新請複雑永権パォマ件オダ案ノベ籍移即居紹介寮ハ団委託稼働率審査安心順施ぎ削減応費致故未防巡回備点検建異常緊急態迅速対チ援配々細伝種電ガ操示付好評渡航診械器具輸へ薬ツズ調身同世じ導達武蔵野摩精華名</p>
+
+
+        <div class="helps">
+            第一步：使用font-face声明字体
+            <pre>
+@font-face {
+    font-family: 'webfont';
+    font-display: swap;
+    src: url('webfont.eot'); /* IE9 */
+    src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('webfont.woff2') format('woff2'),
+    url('webfont.woff') format('woff'), /* chrome、firefox */
+    url('webfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('webfont.svg#webfont') format('svg'); /* iOS 4.1- */
+}
+</pre>
+第二步：定义使用 webfont 的样式
+            <pre>
+.web-font {
+    font-family: "webfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+</pre>
+第三步：为文字加上对应的样式
+<pre>
+&lt;i class="web-font"&gt;BEACON株式会社不動産IT・情報システム留学企業広告ホルナビ賃貸売買管理お問い合わせにつてのをもっと見るクローしくださアプリ開発ミニWeb進 就職©201鲁P备83号-採用住宅宿泊者登録番国土交通大臣()第F4有効期間令和年月日～9古物商許可証Q:返品は能ですか？雰受注製造為、客様ご都よ換遠慮下。当本サ質良あ場到着後１週以内限り弊が送料負担上たま汚れピンなど一定容範囲了承ざ納等由再印刷行代金全額き損害生支払出来んこ文字誤け作直脱利規約デザイ構成ペジ④う申訳店責任ね最終確認えタ願事部や看板主体ェット力ィレョ含めポ長培務制経験ら果「目」考方是非気軽相談威海灯塔山东信息技术责公司地址東省市済区香港路智慧設立中弁京千田鍛冶町VR神階外（）医療5運営豊富持各界多ソ統届提供協語教育機関西6校北道九州7投資家保収益取得績模選択ワ知免丁３－ＶＯＲＴ８LX時休水曜［個人扱］項JanscKu/kキャ指募集！Sエメwfば歓迎実向ネブ独自d【】フUウ熟v意般的コラ把握HMGグ望昇給：試２級ド吾妻橋·院入府県私分科系然英法そ修士博専門位授与課程置ぐ役養密接結び仕必要識術美師護栄ぶ積極ュケ切環境功足早ょ勉強ちろ化活~習帰競争将性芸深刻少子高齢手題厳重組む政労在格特新請複雑永権パォマ件オダ案ノベ籍移即居紹介寮ハ団委託稼働率審査安心順施ぎ削減応費致故未防巡回備点検建異常緊急態迅速対チ援配々細伝種電ガ操示付好評渡航診械器具輸へ薬ツズ調身同世じ導達武蔵野摩精華名&lt;/i&gt;
+</pre>
+        </div>
+
+    </div>
+</body>
+</html>

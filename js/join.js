@@ -8,6 +8,10 @@
 
 $(document).ready(function () {
 
+    let language = defaultLang == 'cn' ? langCN : langJP;
+    // 设置a标签的href
+    $('.tel_tokyo')[0].href = language['addr_japan_call'];
+    
     allLangChange();
     
     var slideIndex = 1;

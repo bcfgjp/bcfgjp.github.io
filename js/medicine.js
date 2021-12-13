@@ -24,21 +24,24 @@ function startup() {
 }
 
 var data_res_business_1 = [{
-        "bgImg": "url(../images/img/medic/2.webp)",
+        "bgImg": "url(../images/img/medic/10.jpg)",
         "titleText": "BEACON",
     }, {
-        "bgImg": "url(../images/img/medic/1.jpeg)",
+        "bgImg": "url(../images/img/medic/11.jpg)",
+        "titleText": "",
+    }, {
+        "bgImg": "url(../images/img/medic/12.jpg)",
         "titleText": "",
     }
 ];
 
 var data_res_business_2 = [{
-    "bgImg": "url(../images/img/medic/3.jpeg)",
+    "bgImg": "url(../images/img/medic/20.jpg)",
         "titleText": "BEACON",
     }
 ];
 var data_res_business_3 = [{
-    "bgImg": "url(../images/img/medic/4.jpeg)",
+    "bgImg": "url(../images/img/medic/30.jpg)",
         "titleText": "BEACON",
     }
 ];

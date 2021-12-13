@@ -22,6 +22,11 @@
     <script src="../src/js/fullpage.min.js"></script>
     <script src="../js/addr.js"></script>
 
+    <script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.15&key=d30159e94c0b80f6943fd8fef46a9b97">
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDkYhMnByNTtFZAxQjb-hkRQU7OV8M-lbw">
+    </script>
+
 </head>
 
 <body>
@@ -49,37 +54,58 @@
     <div id="fullpage">
         <!-- 第一个屏幕 -->
         <div class="section sectionAddr">
+
             <div class="address address-1">
-                <h2 lang="addr_china_city"></h2>
-                <div class="detail detail-1">
-                    <p lang="addr_china_corp"></p>
-                    <p lang="addr_china_addr"></p>
-                    <p lang="addr_china_phone"></p>
-                    <p lang="addr_china_email"></p>
-                </div>
-            </div>
-            <div class="address address-2">
                 <h2 lang="addr_japan_city"></h2>
-                <div class="detail detail-2">
+                <div class="detail detail-1">
                     <p lang="addr_japan_corp"></p>
                     <p lang="addr_japan_addr"></p>
-                    <p lang="addr_japan_email"></p>
-                    <p lang="addr_japan_phone"></p>
-                    <p lang="addr_japan_fax"></p>
+                    <a href="" class="email_tokyo" rel="nofollow">
+                        <p lang="addr_japan_email"></p>
+                    </a>
+                    <a href="" class="tel_tokyo">
+                        <p lang="addr_japan_phone"></p>
+                    </a>
+                    <a class="app-google-tokyo"><p lang="addr_google_navigate"></p></a>
                 </div>
+                <!--  map  -->
+                <div id="container_tokyo"></div>
             </div>
-            <div class="address address-3">
+            <div class="address address-2">
                 <h2 lang="addr_japan_sub_city"></h2>
-                <div class="detail detail-3">
+                <div class="detail detail-2">
                     <p lang="addr_japan_sub_corp"></p>
                     <p lang="addr_japan_sub_addr"></p>
-                    <p lang="addr_japan_sub_email"></p>
-                    <p lang="addr_japan_sub_phone"></p>
+                    <a href="" class="email_qiyu" rel="nofollow">
+                        <p lang="addr_japan_sub_email"></p>
+                    </a>
+                    <a href="" class="tel_qiyu">
+                        <p lang="addr_japan_sub_phone"></p>
+                    </a>
+                    <a class="app-google-qiyu"><p lang="addr_google_navigate"></p></a>
                 </div>
+                <!--  map  -->
+                <div id="container_qiyu"></div>
+            </div>
+            <div class="address address-3">
+                <h2 lang="addr_china_city"></h2>
+                <div class="detail detail-3">
+                    <p lang="addr_china_corp"></p>
+                    <p lang="addr_china_addr"></p>
+                    <a href="" class="email_weihai" rel="nofollow">
+                        <p lang="addr_china_email"></p>
+                    </a>
+                    <a href="" class="tel_weihai">
+                        <p lang="addr_china_phone"></p>
+                    </a>
+                    <a class="app-gaode"><p lang="addr_china_navigate"></p></a>
+                </div>
+                <!--  map  -->
+                <div id="container_china"></div>
             </div>
 
-            <div class="address address-4" style="height: 30px;">
-
+            <div class="address address-4" style="height: 100px;">
+                <h2></br></h2>
             </div>
         </div>
 
