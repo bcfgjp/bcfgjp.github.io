@@ -151,6 +151,7 @@ $(document).ready(function () {
     // 设置a标签的href
     $('.tel_tokyo')[0].href = language['addr_japan_call'];
     $('.email_qiyu')[0].href = language['addr_japan_sub_mailto'];
+    $('.tel_qiyu')[0].href = language['addr_japan_sub_call'];
 
     // 必须放在  $('#fullpage').fullpage 这之前，否则不能显示
     drawHtml($('#ad-one'), data_res_business);
@@ -164,7 +165,7 @@ $(document).ready(function () {
     sliding = false;
     $('#fullpage').fullpage({
         //options here
-        anchors: ['ad', 'ad2', 'ad3', 'ad4', 'ad5', 'ad6', 'ad7', 'ad8'],
+        anchors: ['ad', 'ad2', 'ad3', 'ad4', 'ad5', 'ad6', 'ad7', 'ad8',  'ad9'],
         verticalCentered: false,
 
         //to avoid problems with css3 transforms and fixed elements in Chrome, as detailed here: https://github.com/alvarotrigo/fullPage.js/issues/208

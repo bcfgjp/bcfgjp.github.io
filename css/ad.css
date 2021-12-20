@@ -178,3 +178,114 @@ h1 {
     width: 550px;
     left: 30%;
 }
+
+/* 第9屏 */
+.section-root {
+    background-color: #fcfcfb;
+    width: 100%;
+    height: 100%;
+}
+
+.resRoot {
+    position: relative;
+    display: flex;
+    top: 30px;
+    left: 3%;
+    right: 5%;
+    flex-direction: column;
+    width: 94%;
+    height: 95%;
+    text-align: center;
+}
+
+.resRootTitle {
+    padding-top: 20px;
+}
+
+.resList{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 11%;
+    margin-right: 13%;
+    margin-bottom: 4px;
+}
+
+.resRootList {
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 250px;
+}
+
+.resRootList p{
+    width: 100%;
+    height: 14px;
+}
+
+.resRootList .list_title{
+    font-size: 20px;
+    font-weight:800px;
+    width: 100%;
+    height: 25px;
+    padding-top: 15px;
+}
+
+.resBottom{
+    position: relative;
+    height: 220px;
+}
+
+.resBottom a {
+    color: rgb(10, 28, 85);
+}
+
+.resRootBlock {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: center;
+    top: 20px;
+    padding-left: 35%;
+    padding-right: 30%;
+    width: 35%;
+    height: 100px;
+}
+
+.rootInfo {
+    background-image: url(../images/img/rootInfo.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: auto;
+    position: relative;
+    display: flex;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.rootRes {
+    background-image: url(../images/img/rootRes.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    width: 150px;
+    height: auto;
+    position: relative;
+    display: flex;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.resRootBlock a {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    color: rgb(10, 10, 10);
+}

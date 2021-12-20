@@ -103,11 +103,12 @@ $(document).ready(function () {
         if (AMap.UA.mobile) {
             // document.getElementsByClassName('info')[0].style.display='none';
         }
-        $('.app-gaode').on('click', function () {
+        $('.appgaode').on('click', function () {
             marker.markOnAMAP({
                 name: '灯塔(山东)信息技术有限责任公司',
                 position: marker.getPosition()
             })
+            // $('.app-gaode')[0].href = "https://gaode.com/regeo?lng=122.171884&lat=37.420937&name=灯塔(山东)信息技术有限责任公司&adcode="
         })
     }
 
@@ -133,9 +134,9 @@ $(document).ready(function () {
         marker.setMap(map);
         marker.setTitle('BEACON株式会社 本社');
 
-        $('.app-google-tokyo').on('click', function () {
+        $('.apptokyo').on('click', function () {
             //map.panTo(marker.getPosition());
-            $('.app-google-tokyo')[0].href = "https://www.google.com/maps/place/BEACON%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE/@35.689972,139.7688129,17z/data=!4m5!3m4!1s0x0:0x56074d2a515c6544!8m2!3d35.6898619!4d139.770625";
+            $('.apptokyo')[0].href = "https://www.google.com/maps/place/BEACON%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE/@35.689972,139.7688129,17z/data=!4m5!3m4!1s0x0:0x56074d2a515c6544!8m2!3d35.6898619!4d139.770625";
         })
     }
 
@@ -161,8 +162,8 @@ $(document).ready(function () {
         marker.setMap(map);
         marker.setTitle('BEACON株式会社 広告事業所');
 
-        $('.app-google-qiyu').on('click', function () {
-            $('.app-google-qiyu')[0].href = "https://www.google.com/maps/place/%E5%B7%BD%E5%B1%8B/@35.8357194,139.8054114,17z/data=!4m5!3m4!1s0x60189123f5528673:0xe53dd5f5597436b3!8m2!3d35.8355725!4d139.8074002";
+        $('.appqiyu').on('click', function () {
+            $('.appqiyu')[0].href = "https://www.google.com/maps/place/%E5%B7%BD%E5%B1%8B/@35.8357194,139.8054114,17z/data=!4m5!3m4!1s0x60189123f5528673:0xe53dd5f5597436b3!8m2!3d35.8355725!4d139.8074002";
         })
     }
 
@@ -170,43 +171,44 @@ $(document).ready(function () {
     var reg = RegExp(/.com/);
     if (!fullHref.match(reg)) {
         // 不包含
-        $('.app-google-tokyo').css({
+        $('.nav_tokyo').css({
             'display': 'block'
         });
         $('#container_tokyo').css({
             'display': 'block'
         });
-        $('.app-google-qiyu').css({
+        $('.nav_qiyu').css({
             'display': 'block'
         });
         $('#container_qiyu').css({
             'display': 'block'
         });
-        $('.app-gaode').css({
-            'display': 'none'
+        $('.nav_china').css({
+            'display': 'block'
         });
         $('#container_china').css({
-            'display': 'none'
+            'display': 'block'
         });
         initializeGoogleMapTokyo();
         initializeGoogleMapQiyu();
+        initializeGaodeMapWeihai();
         // window.onunload = GUnload;
     }
     else {
         console.log("dddddd");
-        $('.app-google-tokyo').css({
+        $('.nav_tokyo').css({
             'display': 'none'
         });
         $('#container_tokyo').css({
             'display': 'none',
         });
-        $('.app-google-qiyu').css({
+        $('.nav_qiyu').css({
             'display': 'none'
         });
         $('#container_qiyu').css({
             'display': 'none'
         });
-        $('.app-gaode').css({
+        $('nav_china').css({
             'display': 'block'
         });
         $('#container_china').css({

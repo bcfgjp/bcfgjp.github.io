@@ -103,7 +103,7 @@ const langCN = {
     'addr_china_phone':     'TEL：0631-5991686',
     'addr_china_call':      'tel:0631-59991686',
     'addr_china_mailto':    'mailto:hr@bcfg.co.jp?subject=&body=',
-    'addr_china_navigate':  '[导航到高德地图]',
+    'addr_china_navigate':  '点击导航去这里',
 
     'addr_japan_city':      '东京',
     'addr_japan_corp':      'BEACON株式会社 总公司',
@@ -121,7 +121,9 @@ const langCN = {
     'addr_japan_sub_phone': 'TEL：080-9426-1688',
     'addr_japan_sub_call':  'tel:080-9426-1688',
     'addr_japan_sub_mailto':'mailto:beaconsign@bcfg.co.jp?subject=&body=',
-    'addr_google_navigate':  '[导航到Google地图]',
+    'addr_google_navigate': '点击导航去这里',
+    'addr_japan_sub2_corp': 'BEACON株式会社 広告第二事業所',
+    'addr_japan_sub2_addr': '地址：埼玉県所沢市小手指町3丁目11-9 305号室',
 
 
     //res
@@ -138,6 +140,12 @@ const langCN = {
     'res_subslist_1':       '地址：埼玉县草加市神明2-4-14',
     'res_subslist_2':       'TEL 080-9426-1688',
     'res_subslist_3':       '营业时间 10:30～19:00 休息日：周一、周日',
+
+    'res_2subslist':        '広告第二事業所',
+    'res_2subslist_1':      '地址：埼玉県所沢市小手指町3丁目11-9 305号室',
+    'res_2subslist_2':      '',
+    'res_2subslist_3':      '营业时间 10:30～19:00 休息日：周一、周日',
+
 
     'res_declare_1':        '[关于个人信息的处理]',
     'res_declare_2':        '[免责事项]',
@@ -286,7 +294,7 @@ const langJP = {
     'addr_china_phone':     'Tel：0631-59991686',
     'addr_china_call':      'tel:0631-59991686',
     'addr_china_mailto':    'mailto:hr@bcfg.co.jp?subject=&body=',
-    'addr_china_navigate':  '[高徳地図へ]',
+    'addr_china_navigate':  'クリックしてナビを開始しましょう',
 
     'addr_japan_city':      '東京',
     'addr_japan_corp':      'BEACON株式会社 本社',
@@ -304,7 +312,9 @@ const langJP = {
     'addr_japan_sub_phone': 'TEL：080-9426-1688',
     'addr_japan_sub_call':  'tel:080-9426-1688',
     'addr_japan_sub_mailto':'mailto:beaconsign@bcfg.co.jp?subject=&body=',
-    'addr_google_navigate': '[Google地図へ]',
+    'addr_google_navigate': 'クリックしてナビを開始しましょう',
+    'addr_japan_sub2_corp': 'BEACON株式会社 広告第二事業所',
+    'addr_japan_sub2_addr': '地址：埼玉県所沢市小手指町3丁目11-9 305号室',
 
 
     //res
@@ -321,6 +331,11 @@ const langJP = {
     'res_subslist_1':       '地址：埼玉県草加市神明2-4-14',
     'res_subslist_2':       'TEL 080-9426-1688',
     'res_subslist_3':       '営業時間 10:30～19:00 定休日：月曜日、日曜日',
+
+    'res_2subslist':        '広告第二事業所',
+    'res_2subslist_1':      '地址：埼玉県所沢市小手指町3丁目11-9 305号室',
+    'res_2subslist_2':      '',
+    'res_2subslist_3':      '营业时间 10:30～19:00 休息日：周一、周日',
 
     'res_declare_1':        '［個人情報の取扱いについて］',
     'res_declare_2':        '［免責事項］',

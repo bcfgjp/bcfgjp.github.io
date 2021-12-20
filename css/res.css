@@ -333,8 +333,9 @@ a {
     display: flex;
     flex-direction: row;
     margin-top: 20px;
-    margin-left: 10%;
-    margin-right: 13%;
+    margin-left: 3%;
+    margin-right: 4%;
+    margin-bottom: 4px;
 }
 
 .resRootList {
