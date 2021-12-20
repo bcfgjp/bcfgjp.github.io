@@ -335,7 +335,7 @@ const langJP = {
     'res_2subslist':        '広告第二事業所',
     'res_2subslist_1':      '地址：埼玉県所沢市小手指町3丁目11-9 305号室',
     'res_2subslist_2':      '',
-    'res_2subslist_3':      '营业时间 10:30～19:00 休息日：周一、周日',
+    'res_2subslist_3':      '営業時間 10:30～19:00 定休日：水曜日、日曜日',
 
     'res_declare_1':        '［個人情報の取扱いについて］',
     'res_declare_2':        '［免責事項］',
