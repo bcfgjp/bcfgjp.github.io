@@ -361,6 +361,14 @@ a {
     padding-top: 15px;
 }
 
+.tel_tokyo {
+    width: 100%;
+}
+
+.tel_qiyu{
+    width: 100%;
+}
+
 .resBottom{
     position: relative;
     height: 220px;
