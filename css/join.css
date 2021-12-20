@@ -1,0 +1,64 @@
+html {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    outline: none;
+}
+
+h2 {
+    font-size: 24px;
+    /* font-family: arial, helvetica; */
+    color: #000;
+    font-weight: bold;
+    /* width: 60px; */
+    margin-top: 60px;
+}
+
+
+.section {
+    width: 100%;
+    height: auto;
+    background: url(../images/img/joinbg.jpeg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    margin-top: 0px;
+    flex-direction: column;
+}
+
+.job {
+    position: relative;
+    right: 20%;
+    left: 20%;
+    top: 3%;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    width: 60%;
+    height: auto;
+
+}
+
+.join {
+    padding-left: 6%;
+    padding-right: 6%;
+    text-align: center;
+    width: 88%;
+    height: auto;
+}
+
+.job h2 {
+    border-bottom: 0.5px solid #eee;
+    padding-bottom: 12px;
+}
+
+.detail{
+    padding-left: 20px;
+}
+
+.detail p {
+    color: #444;
+}

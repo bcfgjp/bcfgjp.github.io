@@ -1,0 +1,291 @@
+/* 禁止复制，a标签就不会选中出现蓝色背景 */
+html {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    outline: none;
+}
+
+h1 {
+    font-size: 3.2em;
+    /* font-family: arial, helvetica; */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    top: 42%;
+    left: 0px;
+    text-align: center;
+    position: relative;
+}
+
+.one {
+    word-wrap: break-word;
+    /*英文的时候需要加上这句，自动换行*/
+    width: 20px;
+    height: 100px;
+    margin: 0 auto;
+    line-height: 24px;
+    font-size: 20px;
+    position: relative;
+}
+
+
+.sectionAd {
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.slide {
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 0 0 0 0;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#ad-one .slide-ad1 {
+    background-position-x: center;
+    background-position-y: 10%;
+}
+
+#ad-one h1 {
+    top: 72%;
+    left: 0px;
+}
+
+#ad-two .slide {
+    background-color: rgb(5, 0, 0);
+    background-size: contain;
+}
+
+#ad-two h1 {
+    top: 72%;
+    left: 0px;
+}
+
+#ad-three .slide {
+    background-size: cover;
+    background-position-y: 15%;
+}
+
+#ad-three h1 {
+    top: 82%;
+    left: 0px;
+}
+
+#ad-four .slide {
+    background-color: rgb(203, 204, 207);
+    background-size: contain;
+}
+
+#ad-four h1 {
+    top: 45%;
+    left: 0px;
+}
+
+#ad-five .slide {
+    background-color: rgb(245, 247, 247);
+    background-size: contain;
+}
+
+#ad-five h1 {
+    top: 85%;
+    left: 0px;
+    color: #000;
+}
+
+#ad-six .slide {
+    /* background-color: rgb(203, 204, 207); */
+    background-color: rgb(255, 255, 255);
+    background-size: contain;
+}
+
+#ad-six h1 {
+    top: 85%;
+    left: 0px;
+    color: #000;
+}
+
+#ad-six {
+    background-attachment:scroll;
+}
+
+#ad-seven {
+    background-color: rgb(245, 247, 247);
+}
+
+#ad-eight {
+    background-color: rgb(255, 255, 255);
+    background-image: url(../images/img/ad/contact/contact-logo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    padding: 0 0 0 0;
+}
+
+.QAContent{
+    top: 0px;
+}
+
+.QA {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+.QA-1 {
+    padding-top: 8%;
+}
+
+.QA .question {
+    color: #494949;
+    font-size: 24px;
+    font-weight: bold;
+    /* font-family: tesila1; */
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.QA .answer {
+    color: #717171;
+    font-size: 15px;
+    font-weight: normal;
+    /* font-family: tesila1; */
+    text-align: left;
+    line-height: 24px;
+}
+
+.sectionAd .tel_tokyo{
+    position: absolute;
+    top: 68%;
+    height: 50px;
+    width: 450px;
+    left: 40%;
+}
+
+.sectionAd .email_qiyu{
+    position: absolute;
+    top: 82%;
+    height: 60px;
+    width: 550px;
+    left: 30%;
+}
+
+/* 第9屏 */
+.section-root {
+    background-color: #fcfcfb;
+    width: 100%;
+    height: 100%;
+}
+
+.resRoot {
+    position: relative;
+    display: flex;
+    top: 30px;
+    left: 3%;
+    right: 5%;
+    flex-direction: column;
+    width: 94%;
+    height: 95%;
+    text-align: center;
+}
+
+.resRootTitle {
+    padding-top: 20px;
+}
+
+.resList{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 11%;
+    margin-right: 13%;
+    margin-bottom: 4px;
+}
+
+.resRootList {
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 250px;
+}
+
+.resRootList p{
+    width: 100%;
+    height: 14px;
+}
+
+.resRootList .list_title{
+    font-size: 20px;
+    font-weight:800px;
+    width: 100%;
+    height: 25px;
+    padding-top: 15px;
+}
+
+.resBottom{
+    position: relative;
+    height: 220px;
+}
+
+.resBottom a {
+    color: rgb(10, 28, 85);
+}
+
+.resRootBlock {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: center;
+    top: 20px;
+    padding-left: 35%;
+    padding-right: 30%;
+    width: 35%;
+    height: 100px;
+}
+
+.rootInfo {
+    background-image: url(../images/img/rootInfo.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: auto;
+    position: relative;
+    display: flex;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.rootRes {
+    background-image: url(../images/img/rootRes.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    width: 150px;
+    height: auto;
+    position: relative;
+    display: flex;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.resRootBlock a {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    color: rgb(10, 10, 10);
+}

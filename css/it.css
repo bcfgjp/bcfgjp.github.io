@@ -1,0 +1,50 @@
+/* 禁止复制，a标签就不会选中出现蓝色背景 */
+html {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    outline: none;
+}
+
+h1 {
+    font-size: 3.2em;
+    /* font-family: arial, helvetica; */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    top: 42%;
+    left: 0px;
+    text-align: center;
+    position: relative;
+}
+
+
+.section {
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.sectionIT {
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.slide {
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 0 0 0 0;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#IT-one .slide-IT1 {
+    background-position-x: center;
+    background-position-y: 10%;
+}
