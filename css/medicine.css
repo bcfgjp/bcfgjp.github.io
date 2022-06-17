@@ -1,80 +1,64 @@
-/* 禁止复制，a标签就不会选中出现蓝色背景 */
-html {
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+
+/* <!-- 第一、二个屏幕 --> */
+
+.medicboard {
+    position: absolute;
+    width: 330px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    line-height: 33px;
+    left: 100px;
+    top: 14%;
+    z-index: 2;
+    background-color: transparent;
+    border-radius: 20px;
 }
 
-a {
-    outline: none;
+.boardbg {
+    background-color: rgb(77, 74, 74);
+    opacity: 0.4;
+}
+.boardbgL{
+    background-color: rgb(87, 95, 109);
+    opacity: 0.4;
 }
 
-h1 {
-    font-size: 3.2em;
-    /* font-family: arial, helvetica; */
+.medicboard h4 {
+    margin: 0px 20px 20px 20px;
     color: #fff;
-    margin: 0;
-    padding: 0;
-    top: 42%;
-    left: 0px;
-    text-align: center;
-    position: relative;
+    font-size: 15px;
+    font-family: tesila2;
+    font-weight: 400;
 }
 
-.one {
-    word-wrap: break-word;
-    /*英文的时候需要加上这句，自动换行*/
-    width: 20px;
-    height: 100px;
-    margin: 0 auto;
-    line-height: 24px;
-    font-size: 20px;
-    position: relative;
+.title{
+    font-size: 30px;
+    color: #fff;
+    margin: 20px 20px 20px 20px;
 }
 
-
-.sectionMedic{
-    text-align: center;
-    background-size: cover;
-    background-attachment: fixed;
+.another{
+    top: 25%;
+    width: 330px;
+    height: 280px;
 }
 
-.slide {
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    padding: 0 0 0 0;
-    background-position-x: center;
-    background-position-y: center;
+.another h4{
+    color: #111;
 }
 
-#medic-one .slide-ad1 {
-    background-position-x: center;
-    background-position-y: 10%;
+.serve{
+    top: 9%;
+    width: 600px;
+    height: 550px;
+    right: auto;
+    left: auto;
 }
 
-#medic-one h1 {
-    top: 72%;
-    left: 0px;
-}
-
-#medic-two .slide {
-    background-color: rgb(5, 0, 0);
-    background-size: contain;
-}
-
-#medic-two h1 {
-    top: 72%;
-    left: 0px;
-}
-
-#medic-three .slide {
-    background-size: cover;
-    background-position-y: 15%;
-}
-
-#medic-three h1 {
-    top: 82%;
-    left: 0px;
+.medic-center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }

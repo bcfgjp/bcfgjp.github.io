@@ -12,6 +12,7 @@ function startup() {
 
 function fresh() {
     var record = $('.right-record');
+    var medic = $('.medic');
 
     var fullHref = window.location.href;
     var reg = RegExp(/.com/);
@@ -19,6 +20,9 @@ function fresh() {
     if (!fullHref.match(reg)) {
         // 不包含
         record.css({
+            'display': 'none'
+        });
+        medic.css({
             'display': 'none'
         });
         $('.fp-auto-height .permit .permit-one').css({

@@ -342,6 +342,11 @@ video {
     left: 40px;
 }
 
+.page-break li:nth-child(4) {
+    left: 60px;
+}
+
+
 .tuihuo {
     position: absolute;
     left: 50%;
@@ -498,6 +503,26 @@ video {
     font-family: tesila2;
     font-weight: 400;
 }
+.official{
+    background-color: #D3AF37;
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    display: flex;
+    justify-content: flex-end;
+    right: 20px;
+    bottom: 20px;
+    /* 不能用这种方式，原由：Safari 没有显示图片出来
+    background: url(../images/img/weixin.png) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat; */  
+}
+
+.official img{
+    width: 100%;
+    height: 100%;
+}
 
 /* 第四屏 */
 .section-four {
@@ -522,3 +547,42 @@ video {
     font-size: 20px;
 }
 
+
+.details{
+    width: 100%;
+    margin-top: 33px;
+    line-height: 26px;
+}
+
+.details h4 {
+    margin: 0 0 10px;
+    color: #fff;
+    font-size: 14px;
+    font-family: tesila2;
+    font-weight: 400;
+}
+
+.medic{
+    /* background-color: #D3AF37; */
+    position: absolute;
+    width: 200px;
+    height: 50%;
+    display: flex;
+    justify-content:center;
+    line-height: 26px;
+    right: 50px;
+    bottom: 14%;
+}
+
+.medic.left {
+    height: 20%;
+    left: 30px;
+    bottom: 14%;
+}
+.medic h4 {
+    margin: 0 0 10px;
+    color: #fff;
+    font-size: 14px;
+    font-family: tesila2;
+    font-weight: 400;
+}

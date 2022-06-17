@@ -79,7 +79,7 @@
     position: absolute;
     float: left;
     padding-top: 16px;
-    width: 100px;
+    /* width: 1560px; */
     height: 52px;
     box-sizing: border-box;
     display:flex;

@@ -89,8 +89,8 @@
     .backhome {
         width: 160px;
         right: 0px;
-        top:2px;
-        justify-content:flex-end;
+        top: 2px;
+        justify-content: flex-end;
     }
 
     .wavepoint img {
@@ -208,10 +208,18 @@
         font-size: 19px;
     }
 
+    .property-process{
+        top: 33px;
+        left: 10%;
+        width: 80%;
+    }
+
     .property-subject {
-        margin-left: 3%;
+        margin-left: 5%;
         margin-right: 6%;
-        margin-top: 10px;
+        margin-top: 3px;
+        margin-bottom: 15px;
+        left: 5%;
         width: 84%;
         text-align: left;
     }
@@ -332,6 +340,21 @@
         font-size: 45px !important;
     }
 
+    /* 移居 */
+    .migrate-grid {
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .migratelist {
+        margin-left: 2.5%;
+        margin-right: 4.5%;
+        margin-bottom: 30px;
+        width: 93%;
+    }
 
     /* icon通用配置 */
     .iconfont {
@@ -349,6 +372,26 @@
     .listContent {
         padding-top: 7px;
         font-size: 11px;
+    }
+
+    /* 留学 */
+    .abroad-grid {
+        margin-top: 0px;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .abroadlist {
+        margin-left: 2.5%;
+        margin-right: 4.5%;
+        margin-bottom: 30px;
+        width: 93%;
+    }
+
+    .list-3 {
+        margin-bottom: 60px;
     }
 
     /* 进学 */
@@ -399,6 +442,13 @@
         width: 100%;
     }
 
+    .official {
+        width: 90px;
+        height: 90px;
+        right: 15px;
+        bottom: 15px;
+    }
+
     /* 企業広告 */
     .adTitle {
         font-size: 38px;
@@ -436,7 +486,7 @@
 
     /* ホテル */
     #section-one h1 {
-        top: 25%;
+        top: 20%;
         left: 0px;
         /* transform: translateY(-25%);  */
         text-align: center;
@@ -465,7 +515,7 @@
     }
 
     #section-one h2 {
-        top: 24%;
+        top: 19%;
         left: 0px;
         text-align: center;
     }
@@ -486,6 +536,21 @@
         top: 42%;
         left: 0px;
         text-align: center;
+    }
+
+    .hotelboard {
+        left: 14px;
+        right: 14px;
+        width: auto;
+        top: 55%;
+    }
+
+    .hotel-adjust {
+        display: none;
+    }
+
+    .summary {
+        top: 25%;
     }
 
     /* QA */
@@ -567,7 +632,7 @@
         font-size: 14px;
     }
 
-    .resList{
+    .resList {
         display: flex;
         flex-direction: column;
         margin-left: 0;
@@ -580,12 +645,12 @@
         height: 200px;
     }
 
-    .resRootList .list_title{
+    .resRootList .list_title {
         padding-top: 5px;
         font-size: 18px;
     }
 
-    .resBottom{
+    .resBottom {
         margin-top: 10px;
         height: 280px;
     }
@@ -613,11 +678,11 @@
         background-position-y: center;
     }
 
-    .fp-auto-height .brief{
+    .fp-auto-height .brief {
         height: 70px;
     }
 
-    .fp-auto-height .permit{
+    .fp-auto-height .permit {
         left: 3%;
         width: 97%;
         height: 170px;
@@ -629,22 +694,24 @@
         width: 100%;
     }
 
-    .permit-title{
+    .permit-title {
         font-size: 13px;
     }
-    .h-right{
+
+    .h-right {
         margin-left: 6px;
         font-size: 8px;
     }
 
-    .sectionAd .tel_tokyo{
+    .sectionAd .tel_tokyo {
         position: absolute;
         top: 57%;
         height: 45px;
         width: 90%;
         left: 10%;
     }
-    .sectionAd .email_qiyu{
+
+    .sectionAd .email_qiyu {
         position: absolute;
         top: 65%;
         height: 50px;
@@ -652,22 +719,76 @@
         left: 10%;
     }
 
+    .medic.left {
+        height: 20%;
+        left: auto;
+        right: 50px;
+        top: 530px;
+    }
+
+    .medicthree {
+        right: 19px;
+        left: 19px;
+        width: auto;
+    }
+
+    .medicboard {
+        left: 14px;
+        right: 14px;
+        width: auto;
+        top: 14%;
+    }
+
+    .medicboard h4 {
+        margin: 0px 28px 28px 20px;
+    }
+
+    .serve {
+        top: 7%;
+        height: 620px;
+    }
+
+    .medic-center {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .boardbgL {
+        display: none;
+    }
+
+    .serve h4 {
+        color: #111;
+    }
+
+    .itboard {
+        left: 20px;
+        right: 20px;
+        width: auto;
+        top: 100px;
+    }
+
+    .boardbg {
+        opacity: 0.6;
+    }
+
 }
 
 @media only screen and (max-width: 320px) {
-    .permit-title{
+    .permit-title {
         font-size: 12px;
     }
-    .h-right{
+
+    .h-right {
         margin-left: 7px;
         font-size: 8px;
     }
 
-    .fp-auto-height .permit{
+    .fp-auto-height .permit {
         height: 220px;
     }
 
-    .fp-auto-height .permit p{
+    .fp-auto-height .permit p {
         height: 40px;
     }
 }
@@ -869,10 +990,18 @@
         font-size: 19px;
     }
 
+    .property-process{
+        top: 38px;
+        left: 10%;
+        width: 80%;
+    }
+
     .property-subject {
         margin-left: 3%;
         margin-right: 6%;
         margin-top: 10px;
+        margin-bottom: 10px;
+        left: 5%;
         width: 84%;
         text-align: left;
     }
@@ -983,6 +1112,23 @@
         font-size: 45px !important;
     }
 
+    /* 移居 */
+    .migrate-grid {
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .migratelist {
+        margin-left: 2.5%;
+        margin-right: 4.5%;
+        margin-bottom: 30px;
+        width: 93%;
+    }
+
+
     /* icon通用配置 */
     .iconfont {
         font-size: 38px !important;
@@ -1001,6 +1147,22 @@
         font-size: 11px;
     }
 
+    /* 留学 */
+    .abroad-grid {
+        margin-top: 0px;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .abroadlist {
+        margin-left: 2.5%;
+        margin-right: 4.5%;
+        margin-bottom: 30px;
+        width: 93%;
+    }
+
     /* 进学 */
     .STUDY-background {
         width: 200px;
@@ -1011,6 +1173,10 @@
         width: 100%;
         /* overflow-y: scroll;
         overflow-x: hidden; */
+    }
+
+    .list-3 {
+        margin-bottom: 60px;
     }
 
     .study-title h1 {
@@ -1134,33 +1300,54 @@
         text-align: center;
     }
 
-    .fp-auto-height .brief{
+    .hotelboard {
+        left: 20%;
+        right: 20%;
+        width: auto;
+        top: 55%;
+    }
+
+    .hotel-adjust {
+        display: none;
+    }
+
+    .summary {
+        top: 25%;
+        left: 20%;
+        right: 20%;
+        width: auto;
+        height: 280px;
+    }
+
+
+    .fp-auto-height .brief {
         height: 70px;
     }
 
-    .fp-auto-height .permit{
+    .fp-auto-height .permit {
         left: 28%;
         width: 60%;
         height: 170px;
     }
 
-    .h-right{
+    .h-right {
         margin-left: 25px;
     }
 
-    .resList{
+    .resList {
         margin-left: 0;
         margin-right: 2%;
     }
 
-    .sectionAd .tel_tokyo{
+    .sectionAd .tel_tokyo {
         position: absolute;
         top: 63%;
         height: 75px;
         width: 80%;
         left: 20%;
     }
-    .sectionAd .email_qiyu{
+
+    .sectionAd .email_qiyu {
         position: absolute;
         top: 74%;
         height: 60px;

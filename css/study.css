@@ -27,6 +27,7 @@ a {
     height: auto;
 }
 
+
 /* 第一屏 */
 .section-one {
     background-color: rgb(70, 156, 226);
@@ -95,12 +96,12 @@ a {
     height: 90%;
     background-size: cover;
     overflow-x: hidden;
-    overflow-y:hidden;
+    overflow-y: hidden;
 }
 
 .mapshape img {
     overflow-x: hidden;
-    overflow-y:hidden;
+    overflow-y: hidden;
 }
 
 .maptext {
@@ -224,6 +225,7 @@ a {
     background-size: cover;
 }
 
+
 .STUDY-background {
     background-color: rgba(255, 255, 255, 0);
     position: absolute;
@@ -343,12 +345,80 @@ a {
 .section-three {
     width: 100%;
     height: 100%;
-    background-size: cover;
+    background-color: #eff0f2;
 }
 
-/* 第四屏 */
-.section-three {
+.list-4{
+    display: none;
+}
+
+.STUDY-three {
+    background-color: #eff0f2;
+    /* position: absolute; */
+    display: flex;
+    top: 0px;
+    flex-direction: column;
+    width: 100%;
+    height: 95%;
+}
+
+.abroad-grid {
+    /* position: absolute; */
+    height: 100%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10px;
+    bottom: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.abroadlist {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 0;
+    margin-bottom: 2.5%;
+    height: 89%;
+    width: 23.9%;
+    float: left;
+    position: relative;
+    box-shadow: 4px 4px 10px #c1c1c1;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    flex-direction: column;
+}
+
+.abroad-content {
+    display: flex;
+    width: 88%;
+    margin-top: 5px;
+    margin-left: 6%;
+    height: 100%;
+    position: relative;
+    text-align: left;
+}
+
+.abroad-content h4{
+    color: #181818;
+    font-size: 14px;
+    font-family: tesila2;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.abroadTop {
+    background-color: #161616;
+    display: flex;
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+    height: auto;
+}
+
+.abroadTop img {
     width: 100%;
     height: 100%;
-    background-size: cover;
 }
+

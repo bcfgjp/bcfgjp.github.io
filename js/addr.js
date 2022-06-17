@@ -140,6 +140,33 @@ $(document).ready(function () {
         })
     }
 
+     /*google map komagome*/
+     function initializeGoogleMapKomagome() {
+        var mapProp = {
+            center: new google.maps.LatLng(35.741145, 139.747393),
+            zoom: 15,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var startIcon = {
+            url: '../images/img/icon.png',
+            scaledSize: new google.maps.Size(25, 25),
+            origin: new google.maps.Point(0, 0),
+            anchor: new google.maps.Point(0, 0)
+        };
+        var map = new google.maps.Map(document.getElementById("container_komagome"), mapProp);
+        var marker = new google.maps.Marker({
+            position: map.getCenter(),
+            icon: startIcon
+        });
+        marker.setMap(map);
+        marker.setTitle('BEACON株式会社 北区支店');
+
+        $('.apptokomagome').on('click', function () {
+            //map.panTo(marker.getPosition());
+            $('.apptokomagome')[0].href = "https://www.google.com/maps/place/1-ch%C5%8Dme-6-6+Nishigahara,+Kita+City,+Tokyo+114-0024/@35.7408921,139.7451934,17z/data=!4m13!1m7!3m6!1s0x60188d92283ff9b1:0x686b8e6658b6cf92!2s1-ch%C5%8Dme-6-6+Nishigahara,+Kita+City,+Tokyo+114-0024!3b1!8m2!3d35.7408921!4d139.7473821!3m4!1s0x60188d92283ff9b1:0x686b8e6658b6cf92!8m2!3d35.7408921!4d139.7473821";
+        })
+    }
+
 
     /*google map Qiyu*/
     function initializeGoogleMapQiyu() {
@@ -177,6 +204,12 @@ $(document).ready(function () {
         $('#container_tokyo').css({
             'display': 'block'
         });
+        $('.nav_komagome').css({
+            'display': 'block'
+        });
+        $('#container_komagome').css({
+            'display': 'block'
+        });
         $('.nav_qiyu').css({
             'display': 'block'
         });
@@ -190,16 +223,22 @@ $(document).ready(function () {
             'display': 'block'
         });
         initializeGoogleMapTokyo();
+        initializeGoogleMapKomagome();
         initializeGoogleMapQiyu();
         initializeGaodeMapWeihai();
         // window.onunload = GUnload;
     }
     else {
-        console.log("dddddd");
         $('.nav_tokyo').css({
             'display': 'none'
         });
         $('#container_tokyo').css({
+            'display': 'none',
+        });
+        $('.nav_komagome').css({
+            'display': 'none'
+        });
+        $('#container_komagome').css({
             'display': 'none',
         });
         $('.nav_qiyu').css({

@@ -164,3 +164,52 @@ h2 {
     text-align: center;
     position: relative;
 }
+
+/* detail */
+.hotelboard {
+    position: absolute;
+    width: 330px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    line-height: 33px;
+    right: 100px;
+    top: 32%;
+    z-index: 2;
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+.boardbgB{
+    background-color: rgb(83, 78, 75);
+    opacity: 0.4;
+}
+.boardbgU{
+    background-color: rgb(161, 152, 142);
+    opacity: 0.4;
+}
+
+.hotelboard h4 {
+    margin: 0px 20px 20px 20px;
+    color: #fff;
+    font-size: 15px;
+    font-family: tesila2;
+    font-weight: 400;
+}
+
+.title{
+    font-size: 30px;
+    color: #fff;
+    margin: 20px 20px 20px 20px;
+}
+
+.summary{
+    width: 330px;
+    height: 350px;
+    display: flex;
+    right: auto;
+    left: 100px;
+    top: 22%;
+    text-align: left;
+}

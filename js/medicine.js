@@ -25,7 +25,7 @@ function startup() {
 
 var data_res_business_1 = [{
         "bgImg": "url(../images/img/medic/10.jpg)",
-        "titleText": "BEACON",
+        "titleText": "",
     }, {
         "bgImg": "url(../images/img/medic/11.jpg)",
         "titleText": "",
@@ -36,13 +36,13 @@ var data_res_business_1 = [{
 ];
 
 var data_res_business_2 = [{
-    "bgImg": "url(../images/img/medic/20.jpg)",
-        "titleText": "BEACON",
+    "bgImg": "url(../images/img/medic/30.jpg)",
+        "titleText": "",
     }
 ];
 var data_res_business_3 = [{
-    "bgImg": "url(../images/img/medic/30.jpg)",
-        "titleText": "BEACON",
+    "bgImg": "url(../images/img/medic/66.jpeg)",
+        "titleText": "",
     }
 ];
 

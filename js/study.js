@@ -33,7 +33,7 @@ $(document).ready(function () {
 
     $('#fullpage').fullpage({
         //options here
-        anchors: ['map', 'school', 'school2'],
+        anchors: ['map', 'school', 'abroad'],
         verticalCentered: false,
         scrollOverflow: true,
 
@@ -41,7 +41,7 @@ $(document).ready(function () {
             var t = setTimeout(
                 function () {
                     var color = '#fff';
-                    if (nextIndex.index == 1) {
+                    if (nextIndex.index == 1 || nextIndex.index == 2) {
                         color = '#000'
                     }
                     $('.backhome a').css({
@@ -83,7 +83,7 @@ $(document).ready(function () {
     $img.on('click', function () {
         fullpage_api.moveSectionDown();
     })
-    $('.section:nth-child(-n+4)').append($img);
+    $('.section:nth-child(-n+2)').append($img);
 
     // 数据
     var data = [{

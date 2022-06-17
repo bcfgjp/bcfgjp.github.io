@@ -49,6 +49,7 @@ a {
     height: auto;
     top: 10px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -60,18 +61,38 @@ a {
     font-weight: 400;
 }
 
+.property-process{
+    position: relative;
+    text-align: center;
+    top: 20px;
+    left: 32%;
+    width: 36%;
+    height: auto;
+}
+
+.property-process img{
+    width: 100%;
+    height: 100%;
+}
+
 .property-subject {
     position: relative;
     text-align: center;
-    left: 5%;
-    width: 90%;
+    left: 13%;
+    width: 76%;
     height: auto;
+    /* left: 5%;
+    width: 90%;*/
+}
+
+.subject-one{
+    top: 50px; 
 }
 
 .property-subject h1 {
     color: #000;
     font-size: 15px;
-    /* font-family: tesila3; */
+    font-family: tesila2;
     font-weight: 300;
     line-height: 28px;
 }
@@ -85,6 +106,9 @@ a {
     left: 0;
 }
 
+.content-one{
+    height: 50%;
+}
 .property-grid {
     /* position: absolute; */
     left: 0;
@@ -303,8 +327,85 @@ a {
     height: 95%;
 }
 
-
 /* 第四屏 */
+.section-forth {
+    background-color: #eff0f2;
+    width: 100%;
+    height: 100%;
+}
+
+.PROPERTY-forth {
+    display: flex;
+    top: 5%;
+    flex-direction: column;
+    width: 100%;
+    height: 95%;
+}
+
+.migrate-grid {
+    /* position: absolute; */
+    height: 100%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 28px;
+    bottom: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.migratelist {
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+    margin-top: 0;
+    margin-bottom: 2.5%;
+    height: 80%;
+    width: 35%;
+    float: left;
+    position: relative;
+    box-shadow: 4px 4px 10px #c1c1c1;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    flex-direction: column;
+}
+
+.migrate-content {
+    display: flex;
+    width: 88%;
+    margin-top: 5px;
+    margin-left: 6%;
+    height: 100%;
+    position: relative;
+    text-align: left;
+}
+
+.migrate-content h4{
+    color: #181818;
+    font-size: 14px;
+    font-family: tesila2;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.migrateTop {
+    background-color: #161616;
+    display: flex;
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+    height: auto;
+}
+
+.migrateTop img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/* 末尾屏 */
 .section-root {
     background-color: #fcfcfb;
     width: 100%;
@@ -419,4 +520,12 @@ a {
 .resRootBlock a {
     width: 100%;
     height: 100%;
+}
+
+.res-content{
+    color: #050505;
+    font-size: 14px;
+    font-family: tesila2;
+    font-weight: 400;
+    line-height: 32px;
 }

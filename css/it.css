@@ -48,3 +48,45 @@ h1 {
     background-position-x: center;
     background-position-y: 10%;
 }
+
+
+.itboard {
+    position: absolute;
+    width: 310px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    line-height: 33px;
+    left: 80px;
+    top: 40%;
+    z-index: 2;
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+.boardbg {
+    background-color: rgb(77, 74, 74);
+    opacity: 0.4;
+}
+
+.itboard h4 {
+    margin: 0px 20px 20px 20px;
+    color: #fff;
+    font-size: 15px;
+    font-family: tesila2;
+    font-weight: 400;
+    text-align: left;
+}
+
+.title{
+    font-size: 30px;
+    color: #fff;
+    margin: 20px 20px 20px 20px;
+}
+
+.it-center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
