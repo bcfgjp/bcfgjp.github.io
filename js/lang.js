@@ -495,16 +495,16 @@ const langJP = {
 
     // 役員一覧
     'yakuinyichi':'役員一覧',
-    'liang':'梁 子軒',
+    'liang':'梁&nbsp;子軒',
     'liang_detail':'代表取締役 社長',
-    'zhuo':'卓 元朗',
+    'zhuo':'卓&nbsp;元朗',
     'zhuo_detail':'取締役 総支配人',
     'kin':'金子 豊',
     'kin_detail':'専務取締役',
-    'liudian':'劉 点',
+    'liudian':'劉&nbsp;点',
     'liudian_detail':'広告事業部 部長',
     'liudian_detail2':'工事部 部長',
-    'ikawa':'井川 健一',
+    'ikawa':'井川&nbsp;健一',
     'ikawa_detail':'IT事業部 部長',
     'ikawa_detail2':'中国支社 総支配人',
     'jigyou':'事業部'
